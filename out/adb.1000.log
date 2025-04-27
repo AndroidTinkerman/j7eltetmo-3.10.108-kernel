@@ -1,0 +1,795 @@
+--- adb starting (pid 731295) ---
+03-18 19:36:07.148 731295 731295 I adb     : main.cpp:63 Android Debug Bridge version 1.0.41
+03-18 19:36:07.148 731295 731295 I adb     : main.cpp:63 Version 34.0.4-debian
+03-18 19:36:07.148 731295 731295 I adb     : main.cpp:63 Installed as /usr/lib/android-sdk/platform-tools/adb
+03-18 19:36:07.148 731295 731295 I adb     : main.cpp:63 Running on Linux 6.8.0-55-generic (x86_64)
+03-18 19:36:07.148 731295 731295 I adb     : main.cpp:63 
+03-18 19:36:07.149 731295 731295 I adb     : auth.cpp:416 adb_auth_init...
+03-18 19:36:07.151 731295 731295 I adb     : auth.cpp:152 loaded new key from '/home/user/.android/adbkey' with fingerprint 2EE34B16D0CE4651F3F703CF223FA6FFE8B9212500DEDD79D82D3B2CF8B89282
+03-18 19:36:07.151 731295 731295 I adb     : auth.cpp:391 adb_auth_inotify_init...
+03-18 19:36:07.205 731295 731300 I adb     : transport.cpp:335 3300b8e62f44b35f: read thread spawning
+03-18 19:36:07.205 731295 731301 I adb     : transport.cpp:307 3300b8e62f44b35f: write thread spawning
+03-18 19:36:07.209 731295 731295 I adb     : transport.cpp:1727 fetching keys for transport 3300b8e62f44b35f
+03-18 19:36:07.209 731295 731295 I adb     : auth.cpp:468 Calling send_auth_response
+03-18 19:36:07.225 731295 731295 I adb     : auth.cpp:435 Calling send_auth_publickey
+03-18 19:36:13.462 731295 731300 I adb     : transport.cpp:339 3300b8e62f44b35f: read failed: Cannot send after transport endpoint shutdown
+03-18 19:36:13.462 731295 731300 I adb     : transport.cpp:1248 3300b8e62f44b35f: connection terminated: read failed
+03-18 19:36:13.462 731295 731295 I adb     : adb.cpp:176 3300b8e62f44b35f: offline
+03-18 19:36:13.462 731295 731295 I adb     : transport.cpp:931 destroying transport 3300b8e62f44b35f
+03-18 19:36:13.462 731295 731295 I adb     : transport.cpp:407 BlockingConnectionAdapter(3300b8e62f44b35f): stopping
+03-18 19:36:13.468 731295 731295 I adb     : transport.cpp:425 BlockingConnectionAdapter(3300b8e62f44b35f): stopped
+03-18 19:36:13.468 731295 731295 I adb     : transport.cpp:294 BlockingConnectionAdapter(3300b8e62f44b35f): destructing
+03-18 19:36:13.468 731295 731295 I adb     : transport.cpp:400 BlockingConnectionAdapter(3300b8e62f44b35f): already stopped
+03-18 19:36:16.931 731295 731397 I adb     : transport.cpp:307 3300b8e62f44b35f: write thread spawning
+03-18 19:36:16.933 731295 731396 I adb     : transport.cpp:335 3300b8e62f44b35f: read thread spawning
+03-18 19:36:16.943 731295 731295 I adb     : transport.cpp:1727 fetching keys for transport 3300b8e62f44b35f
+03-18 19:36:16.943 731295 731295 I adb     : auth.cpp:468 Calling send_auth_response
+03-18 19:36:16.971 731295 731295 I adb     : adb.cpp:176 3300b8e62f44b35f: offline
+03-18 21:10:27.130 731295 731396 I adb     : transport.cpp:339 3300b8e62f44b35f: read failed: Timer expired
+03-18 21:10:27.131 731295 731396 I adb     : transport.cpp:1248 3300b8e62f44b35f: connection terminated: read failed
+03-18 21:10:27.132 731295 731295 I adb     : adb.cpp:176 3300b8e62f44b35f: offline
+03-18 21:10:27.132 731295 731295 I adb     : transport.cpp:931 destroying transport 3300b8e62f44b35f
+03-18 21:10:27.132 731295 731295 I adb     : transport.cpp:407 BlockingConnectionAdapter(3300b8e62f44b35f): stopping
+03-18 21:10:27.132 731295 731295 I adb     : transport.cpp:425 BlockingConnectionAdapter(3300b8e62f44b35f): stopped
+03-18 21:10:27.132 731295 731295 I adb     : transport.cpp:294 BlockingConnectionAdapter(3300b8e62f44b35f): destructing
+03-18 21:10:27.133 731295 731295 I adb     : transport.cpp:400 BlockingConnectionAdapter(3300b8e62f44b35f): already stopped
+03-19 10:03:48.229 731295 746742 I adb     : transport.cpp:335 3300b8e62f44b35f: read thread spawning
+03-19 10:03:48.229 731295 746743 I adb     : transport.cpp:307 3300b8e62f44b35f: write thread spawning
+03-19 10:03:48.232 731295 731295 I adb     : transport.cpp:1727 fetching keys for transport 3300b8e62f44b35f
+03-19 10:03:48.233 731295 731295 I adb     : auth.cpp:468 Calling send_auth_response
+03-19 10:03:48.278 731295 731295 I adb     : adb.cpp:176 3300b8e62f44b35f: offline
+03-19 10:03:51.494 731295 746742 I adb     : transport.cpp:339 3300b8e62f44b35f: read failed: Protocol error
+03-19 10:03:51.494 731295 746742 I adb     : transport.cpp:1248 3300b8e62f44b35f: connection terminated: read failed
+03-19 10:03:51.495 731295 731295 I adb     : adb.cpp:176 3300b8e62f44b35f: offline
+03-19 10:03:51.495 731295 731295 I adb     : transport.cpp:931 destroying transport 3300b8e62f44b35f
+03-19 10:03:51.495 731295 731295 I adb     : transport.cpp:407 BlockingConnectionAdapter(3300b8e62f44b35f): stopping
+03-19 10:03:51.497 731295 731295 I adb     : transport.cpp:425 BlockingConnectionAdapter(3300b8e62f44b35f): stopped
+03-19 10:03:51.497 731295 731295 I adb     : transport.cpp:294 BlockingConnectionAdapter(3300b8e62f44b35f): destructing
+03-19 10:03:51.497 731295 731295 I adb     : transport.cpp:400 BlockingConnectionAdapter(3300b8e62f44b35f): already stopped
+03-19 10:03:52.444 731295 746789 I adb     : transport.cpp:335 3300b8e62f44b35f: read thread spawning
+03-19 10:03:52.444 731295 746790 I adb     : transport.cpp:307 3300b8e62f44b35f: write thread spawning
+03-19 10:03:52.447 731295 731295 I adb     : transport.cpp:1727 fetching keys for transport 3300b8e62f44b35f
+03-19 10:03:52.447 731295 731295 I adb     : auth.cpp:468 Calling send_auth_response
+03-19 10:03:52.458 731295 731295 I adb     : adb.cpp:176 3300b8e62f44b35f: offline
+03-19 10:28:47.588 731295 746789 I adb     : transport.cpp:339 3300b8e62f44b35f: read failed: Protocol error
+03-19 10:28:47.588 731295 746789 I adb     : transport.cpp:1248 3300b8e62f44b35f: connection terminated: read failed
+03-19 10:28:47.591 731295 731295 I adb     : adb.cpp:176 3300b8e62f44b35f: offline
+03-19 10:28:47.591 731295 731295 I adb     : transport.cpp:931 destroying transport 3300b8e62f44b35f
+03-19 10:28:47.591 731295 731295 I adb     : transport.cpp:407 BlockingConnectionAdapter(3300b8e62f44b35f): stopping
+03-19 10:28:47.592 731295 731295 I adb     : transport.cpp:425 BlockingConnectionAdapter(3300b8e62f44b35f): stopped
+03-19 10:28:47.592 731295 731295 I adb     : transport.cpp:294 BlockingConnectionAdapter(3300b8e62f44b35f): destructing
+03-19 10:28:47.592 731295 731295 I adb     : transport.cpp:400 BlockingConnectionAdapter(3300b8e62f44b35f): already stopped
+03-19 11:26:42.659 731295 799221 I adb     : transport.cpp:335 3300b8e62f44b35f: read thread spawning
+03-19 11:26:42.659 731295 799222 I adb     : transport.cpp:307 3300b8e62f44b35f: write thread spawning
+03-19 11:26:42.662 731295 731295 I adb     : transport.cpp:1727 fetching keys for transport 3300b8e62f44b35f
+03-19 11:26:42.662 731295 731295 I adb     : auth.cpp:468 Calling send_auth_response
+03-19 11:26:42.680 731295 731295 I adb     : adb.cpp:176 3300b8e62f44b35f: offline
+03-19 11:26:46.136 731295 799221 I adb     : transport.cpp:339 3300b8e62f44b35f: read failed: Cannot send after transport endpoint shutdown
+03-19 11:26:46.136 731295 799221 I adb     : transport.cpp:1248 3300b8e62f44b35f: connection terminated: read failed
+03-19 11:26:46.137 731295 731295 I adb     : adb.cpp:176 3300b8e62f44b35f: offline
+03-19 11:26:46.137 731295 731295 I adb     : transport.cpp:931 destroying transport 3300b8e62f44b35f
+03-19 11:26:46.137 731295 731295 I adb     : transport.cpp:407 BlockingConnectionAdapter(3300b8e62f44b35f): stopping
+03-19 11:26:46.141 731295 731295 I adb     : transport.cpp:425 BlockingConnectionAdapter(3300b8e62f44b35f): stopped
+03-19 11:26:46.141 731295 731295 I adb     : transport.cpp:294 BlockingConnectionAdapter(3300b8e62f44b35f): destructing
+03-19 11:26:46.141 731295 731295 I adb     : transport.cpp:400 BlockingConnectionAdapter(3300b8e62f44b35f): already stopped
+03-19 11:26:46.883 731295 799294 I adb     : transport.cpp:335 3300b8e62f44b35f: read thread spawning
+03-19 11:26:46.883 731295 799295 I adb     : transport.cpp:307 3300b8e62f44b35f: write thread spawning
+03-19 11:26:46.891 731295 731295 I adb     : transport.cpp:1727 fetching keys for transport 3300b8e62f44b35f
+03-19 11:26:46.891 731295 731295 I adb     : auth.cpp:468 Calling send_auth_response
+03-19 11:26:46.914 731295 731295 I adb     : adb.cpp:176 3300b8e62f44b35f: offline
+03-19 11:27:38.496 731295 799294 I adb     : transport.cpp:339 3300b8e62f44b35f: read failed: Protocol error
+03-19 11:27:38.496 731295 799294 I adb     : transport.cpp:1248 3300b8e62f44b35f: connection terminated: read failed
+03-19 11:27:38.500 731295 731295 I adb     : adb.cpp:176 3300b8e62f44b35f: offline
+03-19 11:27:38.500 731295 731295 I adb     : transport.cpp:931 destroying transport 3300b8e62f44b35f
+03-19 11:27:38.500 731295 731295 I adb     : transport.cpp:407 BlockingConnectionAdapter(3300b8e62f44b35f): stopping
+03-19 11:27:38.501 731295 731295 I adb     : transport.cpp:425 BlockingConnectionAdapter(3300b8e62f44b35f): stopped
+03-19 11:27:38.501 731295 731295 I adb     : transport.cpp:294 BlockingConnectionAdapter(3300b8e62f44b35f): destructing
+03-19 11:27:38.501 731295 731295 I adb     : transport.cpp:400 BlockingConnectionAdapter(3300b8e62f44b35f): already stopped
+03-19 14:12:02.376 731295 815975 I adb     : transport.cpp:307 3300b8e62f44b35f: write thread spawning
+03-19 14:12:02.378 731295 815974 I adb     : transport.cpp:335 3300b8e62f44b35f: read thread spawning
+03-19 14:12:02.384 731295 731295 I adb     : transport.cpp:1727 fetching keys for transport 3300b8e62f44b35f
+03-19 14:12:02.384 731295 731295 I adb     : auth.cpp:468 Calling send_auth_response
+03-19 14:12:02.401 731295 731295 I adb     : adb.cpp:176 3300b8e62f44b35f: offline
+03-19 14:12:08.641 731295 815974 I adb     : transport.cpp:339 3300b8e62f44b35f: read failed: Cannot send after transport endpoint shutdown
+03-19 14:12:08.641 731295 815974 I adb     : transport.cpp:1248 3300b8e62f44b35f: connection terminated: read failed
+03-19 14:12:08.641 731295 731295 I adb     : adb.cpp:176 3300b8e62f44b35f: offline
+03-19 14:12:08.641 731295 731295 I adb     : transport.cpp:931 destroying transport 3300b8e62f44b35f
+03-19 14:12:08.641 731295 731295 I adb     : transport.cpp:407 BlockingConnectionAdapter(3300b8e62f44b35f): stopping
+03-19 14:12:08.641 731295 731295 I adb     : transport.cpp:425 BlockingConnectionAdapter(3300b8e62f44b35f): stopped
+03-19 14:12:08.642 731295 731295 I adb     : transport.cpp:294 BlockingConnectionAdapter(3300b8e62f44b35f): destructing
+03-19 14:12:08.642 731295 731295 I adb     : transport.cpp:400 BlockingConnectionAdapter(3300b8e62f44b35f): already stopped
+03-19 14:12:10.234 731295 816325 I adb     : transport.cpp:335 3300b8e62f44b35f: read thread spawning
+03-19 14:12:10.234 731295 816326 I adb     : transport.cpp:307 3300b8e62f44b35f: write thread spawning
+03-19 14:12:10.242 731295 731295 I adb     : transport.cpp:1727 fetching keys for transport 3300b8e62f44b35f
+03-19 14:12:10.242 731295 731295 I adb     : auth.cpp:468 Calling send_auth_response
+03-19 14:12:10.267 731295 731295 I adb     : adb.cpp:176 3300b8e62f44b35f: offline
+03-19 14:13:36.157 731295 816325 I adb     : transport.cpp:339 3300b8e62f44b35f: read failed: Protocol error
+03-19 14:13:36.158 731295 816325 I adb     : transport.cpp:1248 3300b8e62f44b35f: connection terminated: read failed
+03-19 14:13:36.161 731295 731295 I adb     : adb.cpp:176 3300b8e62f44b35f: offline
+03-19 14:13:36.162 731295 731295 I adb     : transport.cpp:931 destroying transport 3300b8e62f44b35f
+03-19 14:13:36.162 731295 731295 I adb     : transport.cpp:407 BlockingConnectionAdapter(3300b8e62f44b35f): stopping
+03-19 14:13:36.162 731295 731295 I adb     : transport.cpp:425 BlockingConnectionAdapter(3300b8e62f44b35f): stopped
+03-19 14:13:36.162 731295 731295 I adb     : transport.cpp:294 BlockingConnectionAdapter(3300b8e62f44b35f): destructing
+03-19 14:13:36.162 731295 731295 I adb     : transport.cpp:400 BlockingConnectionAdapter(3300b8e62f44b35f): already stopped
+03-19 20:40:19.525 731295 941025 I adb     : transport.cpp:335 3300b8e62f44b35f: read thread spawning
+03-19 20:40:19.525 731295 941026 I adb     : transport.cpp:307 3300b8e62f44b35f: write thread spawning
+03-19 20:40:19.531 731295 731295 I adb     : transport.cpp:1727 fetching keys for transport 3300b8e62f44b35f
+03-19 20:40:19.531 731295 731295 I adb     : auth.cpp:468 Calling send_auth_response
+03-19 20:40:19.551 731295 731295 I adb     : adb.cpp:176 3300b8e62f44b35f: offline
+03-19 20:40:25.732 731295 941025 I adb     : transport.cpp:339 3300b8e62f44b35f: read failed: Protocol error
+03-19 20:40:25.732 731295 941025 I adb     : transport.cpp:1248 3300b8e62f44b35f: connection terminated: read failed
+03-19 20:40:25.736 731295 731295 I adb     : adb.cpp:176 3300b8e62f44b35f: offline
+03-19 20:40:25.736 731295 731295 I adb     : transport.cpp:931 destroying transport 3300b8e62f44b35f
+03-19 20:40:25.736 731295 731295 I adb     : transport.cpp:407 BlockingConnectionAdapter(3300b8e62f44b35f): stopping
+03-19 20:40:25.737 731295 731295 I adb     : transport.cpp:425 BlockingConnectionAdapter(3300b8e62f44b35f): stopped
+03-19 20:40:25.737 731295 731295 I adb     : transport.cpp:294 BlockingConnectionAdapter(3300b8e62f44b35f): destructing
+03-19 20:40:25.737 731295 731295 I adb     : transport.cpp:400 BlockingConnectionAdapter(3300b8e62f44b35f): already stopped
+03-19 20:40:27.312 731295 941074 I adb     : transport.cpp:335 3300b8e62f44b35f: read thread spawning
+03-19 20:40:27.313 731295 941075 I adb     : transport.cpp:307 3300b8e62f44b35f: write thread spawning
+03-19 20:40:27.320 731295 731295 I adb     : transport.cpp:1727 fetching keys for transport 3300b8e62f44b35f
+03-19 20:40:27.320 731295 731295 I adb     : auth.cpp:468 Calling send_auth_response
+03-19 20:40:27.342 731295 731295 I adb     : adb.cpp:176 3300b8e62f44b35f: offline
+03-19 20:42:04.542 731295 941074 I adb     : transport.cpp:339 3300b8e62f44b35f: read failed: Cannot send after transport endpoint shutdown
+03-19 20:42:04.542 731295 941074 I adb     : transport.cpp:1248 3300b8e62f44b35f: connection terminated: read failed
+03-19 20:42:04.543 731295 731295 I adb     : adb.cpp:176 3300b8e62f44b35f: offline
+03-19 20:42:04.543 731295 731295 I adb     : transport.cpp:931 destroying transport 3300b8e62f44b35f
+03-19 20:42:04.543 731295 731295 I adb     : transport.cpp:407 BlockingConnectionAdapter(3300b8e62f44b35f): stopping
+03-19 20:42:04.544 731295 731295 I adb     : transport.cpp:425 BlockingConnectionAdapter(3300b8e62f44b35f): stopped
+03-19 20:42:04.544 731295 731295 I adb     : transport.cpp:294 BlockingConnectionAdapter(3300b8e62f44b35f): destructing
+03-19 20:42:04.544 731295 731295 I adb     : transport.cpp:400 BlockingConnectionAdapter(3300b8e62f44b35f): already stopped
+03-20 11:02:50.267 731295 947128 I adb     : transport.cpp:335 3300b8e62f44b35f: read thread spawning
+03-20 11:02:50.267 731295 947129 I adb     : transport.cpp:307 3300b8e62f44b35f: write thread spawning
+03-20 11:02:50.271 731295 731295 I adb     : transport.cpp:1727 fetching keys for transport 3300b8e62f44b35f
+03-20 11:02:50.272 731295 731295 I adb     : auth.cpp:468 Calling send_auth_response
+03-20 11:02:50.289 731295 731295 I adb     : adb.cpp:176 3300b8e62f44b35f: offline
+03-20 11:02:55.885 731295 947128 I adb     : transport.cpp:339 3300b8e62f44b35f: read failed: Cannot send after transport endpoint shutdown
+03-20 11:02:55.885 731295 947128 I adb     : transport.cpp:1248 3300b8e62f44b35f: connection terminated: read failed
+03-20 11:02:55.886 731295 731295 I adb     : adb.cpp:176 3300b8e62f44b35f: offline
+03-20 11:02:55.886 731295 731295 I adb     : transport.cpp:931 destroying transport 3300b8e62f44b35f
+03-20 11:02:55.886 731295 731295 I adb     : transport.cpp:407 BlockingConnectionAdapter(3300b8e62f44b35f): stopping
+03-20 11:02:55.886 731295 731295 I adb     : transport.cpp:425 BlockingConnectionAdapter(3300b8e62f44b35f): stopped
+03-20 11:02:55.886 731295 731295 I adb     : transport.cpp:294 BlockingConnectionAdapter(3300b8e62f44b35f): destructing
+03-20 11:02:55.887 731295 731295 I adb     : transport.cpp:400 BlockingConnectionAdapter(3300b8e62f44b35f): already stopped
+03-20 11:02:56.588 731295 947174 I adb     : transport.cpp:307 3300b8e62f44b35f: write thread spawning
+03-20 11:02:56.588 731295 947173 I adb     : transport.cpp:335 3300b8e62f44b35f: read thread spawning
+03-20 11:02:56.591 731295 731295 I adb     : transport.cpp:1727 fetching keys for transport 3300b8e62f44b35f
+03-20 11:02:56.591 731295 731295 I adb     : auth.cpp:468 Calling send_auth_response
+03-20 11:02:56.602 731295 731295 I adb     : adb.cpp:176 3300b8e62f44b35f: offline
+03-20 11:06:20.594 731295 947173 I adb     : transport.cpp:339 3300b8e62f44b35f: read failed: Cannot send after transport endpoint shutdown
+03-20 11:06:20.594 731295 947173 I adb     : transport.cpp:1248 3300b8e62f44b35f: connection terminated: read failed
+03-20 11:06:20.595 731295 731295 I adb     : adb.cpp:176 3300b8e62f44b35f: offline
+03-20 11:06:20.597 731295 731295 I adb     : transport.cpp:931 destroying transport 3300b8e62f44b35f
+03-20 11:06:20.597 731295 731295 I adb     : transport.cpp:407 BlockingConnectionAdapter(3300b8e62f44b35f): stopping
+03-20 11:06:20.597 731295 731295 I adb     : transport.cpp:425 BlockingConnectionAdapter(3300b8e62f44b35f): stopped
+03-20 11:06:20.597 731295 731295 I adb     : transport.cpp:294 BlockingConnectionAdapter(3300b8e62f44b35f): destructing
+03-20 11:06:20.597 731295 731295 I adb     : transport.cpp:400 BlockingConnectionAdapter(3300b8e62f44b35f): already stopped
+03-20 12:53:42.572 731295 1000644 I adb     : transport.cpp:335 3300b8e62f44b35f: read thread spawning
+03-20 12:53:42.572 731295 1000645 I adb     : transport.cpp:307 3300b8e62f44b35f: write thread spawning
+03-20 12:53:42.579 731295 731295 I adb     : transport.cpp:1727 fetching keys for transport 3300b8e62f44b35f
+03-20 12:53:42.579 731295 731295 I adb     : auth.cpp:468 Calling send_auth_response
+03-20 12:53:42.625 731295 731295 I adb     : adb.cpp:176 3300b8e62f44b35f: offline
+03-20 12:53:45.510 731295 1000644 I adb     : transport.cpp:339 3300b8e62f44b35f: read failed: Protocol error
+03-20 12:53:45.510 731295 1000644 I adb     : transport.cpp:1248 3300b8e62f44b35f: connection terminated: read failed
+03-20 12:53:45.512 731295 731295 I adb     : adb.cpp:176 3300b8e62f44b35f: offline
+03-20 12:53:45.512 731295 731295 I adb     : transport.cpp:931 destroying transport 3300b8e62f44b35f
+03-20 12:53:45.512 731295 731295 I adb     : transport.cpp:407 BlockingConnectionAdapter(3300b8e62f44b35f): stopping
+03-20 12:53:45.518 731295 731295 I adb     : transport.cpp:425 BlockingConnectionAdapter(3300b8e62f44b35f): stopped
+03-20 12:53:45.518 731295 731295 I adb     : transport.cpp:294 BlockingConnectionAdapter(3300b8e62f44b35f): destructing
+03-20 12:53:45.518 731295 731295 I adb     : transport.cpp:400 BlockingConnectionAdapter(3300b8e62f44b35f): already stopped
+03-20 12:53:47.178 731295 1000755 I adb     : transport.cpp:335 3300b8e62f44b35f: read thread spawning
+03-20 12:53:47.178 731295 1000756 I adb     : transport.cpp:307 3300b8e62f44b35f: write thread spawning
+03-20 12:53:47.186 731295 731295 I adb     : transport.cpp:1727 fetching keys for transport 3300b8e62f44b35f
+03-20 12:53:47.186 731295 731295 I adb     : auth.cpp:468 Calling send_auth_response
+03-20 12:53:47.211 731295 731295 I adb     : adb.cpp:176 3300b8e62f44b35f: offline
+03-20 12:58:41.323 731295 1000755 I adb     : transport.cpp:339 3300b8e62f44b35f: read failed: Protocol error
+03-20 12:58:41.324 731295 1000755 I adb     : transport.cpp:1248 3300b8e62f44b35f: connection terminated: read failed
+03-20 12:58:41.326 731295 731295 I adb     : adb.cpp:176 3300b8e62f44b35f: offline
+03-20 12:58:41.326 731295 731295 I adb     : transport.cpp:931 destroying transport 3300b8e62f44b35f
+03-20 12:58:41.326 731295 731295 I adb     : transport.cpp:407 BlockingConnectionAdapter(3300b8e62f44b35f): stopping
+03-20 12:58:41.327 731295 731295 I adb     : transport.cpp:425 BlockingConnectionAdapter(3300b8e62f44b35f): stopped
+03-20 12:58:41.327 731295 731295 I adb     : transport.cpp:294 BlockingConnectionAdapter(3300b8e62f44b35f): destructing
+03-20 12:58:41.327 731295 731295 I adb     : transport.cpp:400 BlockingConnectionAdapter(3300b8e62f44b35f): already stopped
+03-20 13:56:24.546 731295 1023911 I adb     : transport.cpp:335 3300b8e62f44b35f: read thread spawning
+03-20 13:56:24.546 731295 1023912 I adb     : transport.cpp:307 3300b8e62f44b35f: write thread spawning
+03-20 13:56:24.552 731295 731295 I adb     : transport.cpp:1727 fetching keys for transport 3300b8e62f44b35f
+03-20 13:56:24.553 731295 731295 I adb     : auth.cpp:468 Calling send_auth_response
+03-20 13:56:24.610 731295 731295 I adb     : adb.cpp:176 3300b8e62f44b35f: offline
+03-20 13:56:30.662 731295 1023911 I adb     : transport.cpp:339 3300b8e62f44b35f: read failed: Protocol error
+03-20 13:56:30.662 731295 1023911 I adb     : transport.cpp:1248 3300b8e62f44b35f: connection terminated: read failed
+03-20 13:56:30.662 731295 731295 I adb     : adb.cpp:176 3300b8e62f44b35f: offline
+03-20 13:56:30.663 731295 731295 I adb     : transport.cpp:931 destroying transport 3300b8e62f44b35f
+03-20 13:56:30.663 731295 731295 I adb     : transport.cpp:407 BlockingConnectionAdapter(3300b8e62f44b35f): stopping
+03-20 13:56:30.666 731295 731295 I adb     : transport.cpp:425 BlockingConnectionAdapter(3300b8e62f44b35f): stopped
+03-20 13:56:30.666 731295 731295 I adb     : transport.cpp:294 BlockingConnectionAdapter(3300b8e62f44b35f): destructing
+03-20 13:56:30.666 731295 731295 I adb     : transport.cpp:400 BlockingConnectionAdapter(3300b8e62f44b35f): already stopped
+03-20 13:56:32.279 731295 1024024 I adb     : transport.cpp:335 3300b8e62f44b35f: read thread spawning
+03-20 13:56:32.279 731295 1024025 I adb     : transport.cpp:307 3300b8e62f44b35f: write thread spawning
+03-20 13:56:32.286 731295 731295 I adb     : transport.cpp:1727 fetching keys for transport 3300b8e62f44b35f
+03-20 13:56:32.289 731295 731295 I adb     : auth.cpp:468 Calling send_auth_response
+03-20 13:56:32.311 731295 731295 I adb     : adb.cpp:176 3300b8e62f44b35f: offline
+03-20 13:57:55.688 731295 1024024 I adb     : transport.cpp:339 3300b8e62f44b35f: read failed: Protocol error
+03-20 13:57:55.688 731295 1024024 I adb     : transport.cpp:1248 3300b8e62f44b35f: connection terminated: read failed
+03-20 13:57:55.690 731295 731295 I adb     : adb.cpp:176 3300b8e62f44b35f: offline
+03-20 13:57:55.690 731295 731295 I adb     : transport.cpp:931 destroying transport 3300b8e62f44b35f
+03-20 13:57:55.690 731295 731295 I adb     : transport.cpp:407 BlockingConnectionAdapter(3300b8e62f44b35f): stopping
+03-20 13:57:55.690 731295 731295 I adb     : transport.cpp:425 BlockingConnectionAdapter(3300b8e62f44b35f): stopped
+03-20 13:57:55.690 731295 731295 I adb     : transport.cpp:294 BlockingConnectionAdapter(3300b8e62f44b35f): destructing
+03-20 13:57:55.690 731295 731295 I adb     : transport.cpp:400 BlockingConnectionAdapter(3300b8e62f44b35f): already stopped
+03-20 20:34:59.552 731295 1127934 I adb     : transport.cpp:307 3300b8e62f44b35f: write thread spawning
+03-20 20:34:59.552 731295 1127933 I adb     : transport.cpp:335 3300b8e62f44b35f: read thread spawning
+03-20 20:34:59.558 731295 731295 I adb     : transport.cpp:1727 fetching keys for transport 3300b8e62f44b35f
+03-20 20:34:59.558 731295 731295 I adb     : auth.cpp:468 Calling send_auth_response
+03-20 20:34:59.574 731295 731295 I adb     : adb.cpp:176 3300b8e62f44b35f: offline
+03-20 20:35:02.616 731295 1127933 I adb     : transport.cpp:339 3300b8e62f44b35f: read failed: Cannot send after transport endpoint shutdown
+03-20 20:35:02.616 731295 1127933 I adb     : transport.cpp:1248 3300b8e62f44b35f: connection terminated: read failed
+03-20 20:35:02.621 731295 731295 I adb     : adb.cpp:176 3300b8e62f44b35f: offline
+03-20 20:35:02.622 731295 731295 I adb     : transport.cpp:931 destroying transport 3300b8e62f44b35f
+03-20 20:35:02.622 731295 731295 I adb     : transport.cpp:407 BlockingConnectionAdapter(3300b8e62f44b35f): stopping
+03-20 20:35:02.622 731295 731295 I adb     : transport.cpp:425 BlockingConnectionAdapter(3300b8e62f44b35f): stopped
+03-20 20:35:02.622 731295 731295 I adb     : transport.cpp:294 BlockingConnectionAdapter(3300b8e62f44b35f): destructing
+03-20 20:35:02.622 731295 731295 I adb     : transport.cpp:400 BlockingConnectionAdapter(3300b8e62f44b35f): already stopped
+03-20 20:35:04.199 731295 1128003 I adb     : transport.cpp:335 3300b8e62f44b35f: read thread spawning
+03-20 20:35:04.200 731295 1128004 I adb     : transport.cpp:307 3300b8e62f44b35f: write thread spawning
+03-20 20:35:04.206 731295 731295 I adb     : transport.cpp:1727 fetching keys for transport 3300b8e62f44b35f
+03-20 20:35:04.206 731295 731295 I adb     : auth.cpp:468 Calling send_auth_response
+03-20 20:35:04.224 731295 731295 I adb     : adb.cpp:176 3300b8e62f44b35f: offline
+03-20 20:36:25.294 731295 1128003 I adb     : transport.cpp:339 3300b8e62f44b35f: read failed: Protocol error
+03-20 20:36:25.294 731295 1128003 I adb     : transport.cpp:1248 3300b8e62f44b35f: connection terminated: read failed
+03-20 20:36:25.295 731295 731295 I adb     : adb.cpp:176 3300b8e62f44b35f: offline
+03-20 20:36:25.295 731295 731295 I adb     : transport.cpp:931 destroying transport 3300b8e62f44b35f
+03-20 20:36:25.295 731295 731295 I adb     : transport.cpp:407 BlockingConnectionAdapter(3300b8e62f44b35f): stopping
+03-20 20:36:25.297 731295 731295 I adb     : transport.cpp:425 BlockingConnectionAdapter(3300b8e62f44b35f): stopped
+03-20 20:36:25.297 731295 731295 I adb     : transport.cpp:294 BlockingConnectionAdapter(3300b8e62f44b35f): destructing
+03-20 20:36:25.297 731295 731295 I adb     : transport.cpp:400 BlockingConnectionAdapter(3300b8e62f44b35f): already stopped
+03-21 09:02:23.060 731295 1133942 I adb     : transport.cpp:335 3300b8e62f44b35f: read thread spawning
+03-21 09:02:23.060 731295 1133943 I adb     : transport.cpp:307 3300b8e62f44b35f: write thread spawning
+03-21 09:02:23.063 731295 731295 I adb     : transport.cpp:1727 fetching keys for transport 3300b8e62f44b35f
+03-21 09:02:23.063 731295 731295 I adb     : auth.cpp:468 Calling send_auth_response
+03-21 09:02:23.088 731295 731295 I adb     : adb.cpp:176 3300b8e62f44b35f: offline
+03-21 09:02:32.262 731295 1133942 I adb     : transport.cpp:339 3300b8e62f44b35f: read failed: Cannot send after transport endpoint shutdown
+03-21 09:02:32.262 731295 1133942 I adb     : transport.cpp:1248 3300b8e62f44b35f: connection terminated: read failed
+03-21 09:02:32.263 731295 731295 I adb     : adb.cpp:176 3300b8e62f44b35f: offline
+03-21 09:02:32.263 731295 731295 I adb     : transport.cpp:931 destroying transport 3300b8e62f44b35f
+03-21 09:02:32.263 731295 731295 I adb     : transport.cpp:407 BlockingConnectionAdapter(3300b8e62f44b35f): stopping
+03-21 09:02:32.264 731295 731295 I adb     : transport.cpp:425 BlockingConnectionAdapter(3300b8e62f44b35f): stopped
+03-21 09:02:32.264 731295 731295 I adb     : transport.cpp:294 BlockingConnectionAdapter(3300b8e62f44b35f): destructing
+03-21 09:02:32.264 731295 731295 I adb     : transport.cpp:400 BlockingConnectionAdapter(3300b8e62f44b35f): already stopped
+03-21 09:02:33.841 731295 1133989 I adb     : transport.cpp:335 3300b8e62f44b35f: read thread spawning
+03-21 09:02:33.841 731295 1133990 I adb     : transport.cpp:307 3300b8e62f44b35f: write thread spawning
+03-21 09:02:33.846 731295 731295 I adb     : transport.cpp:1727 fetching keys for transport 3300b8e62f44b35f
+03-21 09:02:33.846 731295 731295 I adb     : auth.cpp:468 Calling send_auth_response
+03-21 09:02:33.856 731295 731295 I adb     : adb.cpp:176 3300b8e62f44b35f: offline
+03-21 09:06:23.703 731295 1133989 I adb     : transport.cpp:339 3300b8e62f44b35f: read failed: Cannot send after transport endpoint shutdown
+03-21 09:06:23.703 731295 1133989 I adb     : transport.cpp:1248 3300b8e62f44b35f: connection terminated: read failed
+03-21 09:06:23.704 731295 731295 I adb     : adb.cpp:176 3300b8e62f44b35f: offline
+03-21 09:06:23.704 731295 731295 I adb     : transport.cpp:931 destroying transport 3300b8e62f44b35f
+03-21 09:06:23.704 731295 731295 I adb     : transport.cpp:407 BlockingConnectionAdapter(3300b8e62f44b35f): stopping
+03-21 09:06:23.704 731295 731295 I adb     : transport.cpp:425 BlockingConnectionAdapter(3300b8e62f44b35f): stopped
+03-21 09:06:23.705 731295 731295 I adb     : transport.cpp:294 BlockingConnectionAdapter(3300b8e62f44b35f): destructing
+03-21 09:06:23.705 731295 731295 I adb     : transport.cpp:400 BlockingConnectionAdapter(3300b8e62f44b35f): already stopped
+03-24 19:03:56.876 731295 1565995 I adb     : transport.cpp:335 3300b8e62f44b35f: read thread spawning
+03-24 19:03:56.876 731295 1565996 I adb     : transport.cpp:307 3300b8e62f44b35f: write thread spawning
+03-24 19:03:56.882 731295 731295 I adb     : transport.cpp:1727 fetching keys for transport 3300b8e62f44b35f
+03-24 19:03:56.882 731295 731295 I adb     : auth.cpp:468 Calling send_auth_response
+03-24 19:03:56.928 731295 731295 I adb     : adb.cpp:176 3300b8e62f44b35f: offline
+03-24 19:04:01.119 731295 1565995 I adb     : transport.cpp:339 3300b8e62f44b35f: read failed: Cannot send after transport endpoint shutdown
+03-24 19:04:01.119 731295 1565995 I adb     : transport.cpp:1248 3300b8e62f44b35f: connection terminated: read failed
+03-24 19:04:01.121 731295 731295 I adb     : adb.cpp:176 3300b8e62f44b35f: offline
+03-24 19:04:01.122 731295 731295 I adb     : transport.cpp:931 destroying transport 3300b8e62f44b35f
+03-24 19:04:01.122 731295 731295 I adb     : transport.cpp:407 BlockingConnectionAdapter(3300b8e62f44b35f): stopping
+03-24 19:04:01.122 731295 731295 I adb     : transport.cpp:425 BlockingConnectionAdapter(3300b8e62f44b35f): stopped
+03-24 19:04:01.122 731295 731295 I adb     : transport.cpp:294 BlockingConnectionAdapter(3300b8e62f44b35f): destructing
+03-24 19:04:01.122 731295 731295 I adb     : transport.cpp:400 BlockingConnectionAdapter(3300b8e62f44b35f): already stopped
+03-24 19:04:02.145 731295 1566047 I adb     : transport.cpp:335 3300b8e62f44b35f: read thread spawning
+03-24 19:04:02.149 731295 1566048 I adb     : transport.cpp:307 3300b8e62f44b35f: write thread spawning
+03-24 19:04:02.152 731295 731295 I adb     : transport.cpp:1727 fetching keys for transport 3300b8e62f44b35f
+03-24 19:04:02.152 731295 731295 I adb     : auth.cpp:468 Calling send_auth_response
+03-24 19:04:02.176 731295 731295 I adb     : adb.cpp:176 3300b8e62f44b35f: offline
+03-24 19:05:14.472 731295 1566047 I adb     : transport.cpp:339 3300b8e62f44b35f: read failed: Protocol error
+03-24 19:05:14.472 731295 1566047 I adb     : transport.cpp:1248 3300b8e62f44b35f: connection terminated: read failed
+03-24 19:05:14.474 731295 731295 I adb     : adb.cpp:176 3300b8e62f44b35f: offline
+03-24 19:05:14.474 731295 731295 I adb     : transport.cpp:931 destroying transport 3300b8e62f44b35f
+03-24 19:05:14.474 731295 731295 I adb     : transport.cpp:407 BlockingConnectionAdapter(3300b8e62f44b35f): stopping
+03-24 19:05:14.475 731295 731295 I adb     : transport.cpp:425 BlockingConnectionAdapter(3300b8e62f44b35f): stopped
+03-24 19:05:14.475 731295 731295 I adb     : transport.cpp:294 BlockingConnectionAdapter(3300b8e62f44b35f): destructing
+03-24 19:05:14.475 731295 731295 I adb     : transport.cpp:400 BlockingConnectionAdapter(3300b8e62f44b35f): already stopped
+03-26 13:42:54.524 731295 1653543 I adb     : transport.cpp:335 3300b8e62f44b35f: read thread spawning
+03-26 13:42:54.524 731295 1653544 I adb     : transport.cpp:307 3300b8e62f44b35f: write thread spawning
+03-26 13:42:54.528 731295 731295 I adb     : transport.cpp:1727 fetching keys for transport 3300b8e62f44b35f
+03-26 13:42:54.528 731295 731295 I adb     : auth.cpp:468 Calling send_auth_response
+03-26 13:42:54.545 731295 731295 I adb     : adb.cpp:176 3300b8e62f44b35f: offline
+03-26 13:42:59.493 731295 1653543 I adb     : transport.cpp:339 3300b8e62f44b35f: read failed: Cannot send after transport endpoint shutdown
+03-26 13:42:59.493 731295 1653543 I adb     : transport.cpp:1248 3300b8e62f44b35f: connection terminated: read failed
+03-26 13:42:59.493 731295 731295 I adb     : adb.cpp:176 3300b8e62f44b35f: offline
+03-26 13:42:59.493 731295 731295 I adb     : transport.cpp:931 destroying transport 3300b8e62f44b35f
+03-26 13:42:59.494 731295 731295 I adb     : transport.cpp:407 BlockingConnectionAdapter(3300b8e62f44b35f): stopping
+03-26 13:42:59.496 731295 731295 I adb     : transport.cpp:425 BlockingConnectionAdapter(3300b8e62f44b35f): stopped
+03-26 13:42:59.496 731295 731295 I adb     : transport.cpp:294 BlockingConnectionAdapter(3300b8e62f44b35f): destructing
+03-26 13:42:59.496 731295 731295 I adb     : transport.cpp:400 BlockingConnectionAdapter(3300b8e62f44b35f): already stopped
+03-26 13:43:00.911 731295 1653589 I adb     : transport.cpp:335 3300b8e62f44b35f: read thread spawning
+03-26 13:43:00.911 731295 1653590 I adb     : transport.cpp:307 3300b8e62f44b35f: write thread spawning
+03-26 13:43:00.915 731295 731295 I adb     : transport.cpp:1727 fetching keys for transport 3300b8e62f44b35f
+03-26 13:43:00.915 731295 731295 I adb     : auth.cpp:468 Calling send_auth_response
+03-26 13:43:00.927 731295 731295 I adb     : adb.cpp:176 3300b8e62f44b35f: offline
+03-26 13:43:03.629 731295 1653589 I adb     : transport.cpp:339 3300b8e62f44b35f: read failed: Cannot send after transport endpoint shutdown
+03-26 13:43:03.629 731295 1653589 I adb     : transport.cpp:1248 3300b8e62f44b35f: connection terminated: read failed
+03-26 13:43:03.629 731295 731295 I adb     : adb.cpp:176 3300b8e62f44b35f: offline
+03-26 13:43:03.629 731295 731295 I adb     : transport.cpp:931 destroying transport 3300b8e62f44b35f
+03-26 13:43:03.630 731295 731295 I adb     : transport.cpp:407 BlockingConnectionAdapter(3300b8e62f44b35f): stopping
+03-26 13:43:03.630 731295 731295 I adb     : transport.cpp:425 BlockingConnectionAdapter(3300b8e62f44b35f): stopped
+03-26 13:43:03.630 731295 731295 I adb     : transport.cpp:294 BlockingConnectionAdapter(3300b8e62f44b35f): destructing
+03-26 13:43:03.630 731295 731295 I adb     : transport.cpp:400 BlockingConnectionAdapter(3300b8e62f44b35f): already stopped
+03-26 13:43:05.455 731295 1653669 I adb     : transport.cpp:307 3300b8e62f44b35f: write thread spawning
+03-26 13:43:05.457 731295 1653668 I adb     : transport.cpp:335 3300b8e62f44b35f: read thread spawning
+03-26 13:43:05.460 731295 731295 I adb     : transport.cpp:1727 fetching keys for transport 3300b8e62f44b35f
+03-26 13:43:05.460 731295 731295 I adb     : auth.cpp:468 Calling send_auth_response
+03-26 13:43:05.472 731295 731295 I adb     : adb.cpp:176 3300b8e62f44b35f: offline
+03-26 13:43:10.643 731295 1653668 I adb     : transport.cpp:339 3300b8e62f44b35f: read failed: Cannot send after transport endpoint shutdown
+03-26 13:43:10.643 731295 1653668 I adb     : transport.cpp:1248 3300b8e62f44b35f: connection terminated: read failed
+03-26 13:43:10.643 731295 731295 I adb     : adb.cpp:176 3300b8e62f44b35f: offline
+03-26 13:43:10.643 731295 731295 I adb     : transport.cpp:931 destroying transport 3300b8e62f44b35f
+03-26 13:43:10.643 731295 731295 I adb     : transport.cpp:407 BlockingConnectionAdapter(3300b8e62f44b35f): stopping
+03-26 13:43:10.644 731295 731295 I adb     : transport.cpp:425 BlockingConnectionAdapter(3300b8e62f44b35f): stopped
+03-26 13:43:10.646 731295 731295 I adb     : transport.cpp:294 BlockingConnectionAdapter(3300b8e62f44b35f): destructing
+03-26 13:43:10.647 731295 731295 I adb     : transport.cpp:400 BlockingConnectionAdapter(3300b8e62f44b35f): already stopped
+03-26 13:43:12.079 731295 1653730 I adb     : transport.cpp:335 3300b8e62f44b35f: read thread spawning
+03-26 13:43:12.079 731295 1653731 I adb     : transport.cpp:307 3300b8e62f44b35f: write thread spawning
+03-26 13:43:12.081 731295 731295 I adb     : transport.cpp:1727 fetching keys for transport 3300b8e62f44b35f
+03-26 13:43:12.082 731295 731295 I adb     : auth.cpp:468 Calling send_auth_response
+03-26 13:43:12.091 731295 731295 I adb     : adb.cpp:176 3300b8e62f44b35f: offline
+03-26 13:43:17.339 731295 1653730 I adb     : transport.cpp:339 3300b8e62f44b35f: read failed: Cannot send after transport endpoint shutdown
+03-26 13:43:17.339 731295 1653730 I adb     : transport.cpp:1248 3300b8e62f44b35f: connection terminated: read failed
+03-26 13:43:17.339 731295 731295 I adb     : adb.cpp:176 3300b8e62f44b35f: offline
+03-26 13:43:17.339 731295 731295 I adb     : transport.cpp:931 destroying transport 3300b8e62f44b35f
+03-26 13:43:17.339 731295 731295 I adb     : transport.cpp:407 BlockingConnectionAdapter(3300b8e62f44b35f): stopping
+03-26 13:43:17.339 731295 731295 I adb     : transport.cpp:425 BlockingConnectionAdapter(3300b8e62f44b35f): stopped
+03-26 13:43:17.340 731295 731295 I adb     : transport.cpp:294 BlockingConnectionAdapter(3300b8e62f44b35f): destructing
+03-26 13:43:17.340 731295 731295 I adb     : transport.cpp:400 BlockingConnectionAdapter(3300b8e62f44b35f): already stopped
+03-26 13:43:21.766 731295 1653780 I adb     : transport.cpp:307 3300b8e62f44b35f: write thread spawning
+03-26 13:43:21.767 731295 1653779 I adb     : transport.cpp:335 3300b8e62f44b35f: read thread spawning
+03-26 13:43:21.773 731295 731295 I adb     : transport.cpp:1727 fetching keys for transport 3300b8e62f44b35f
+03-26 13:43:21.774 731295 731295 I adb     : auth.cpp:468 Calling send_auth_response
+03-26 13:43:21.786 731295 731295 I adb     : adb.cpp:176 3300b8e62f44b35f: offline
+03-26 13:43:27.012 731295 1653779 I adb     : transport.cpp:339 3300b8e62f44b35f: read failed: Cannot send after transport endpoint shutdown
+03-26 13:43:27.012 731295 1653779 I adb     : transport.cpp:1248 3300b8e62f44b35f: connection terminated: read failed
+03-26 13:43:27.015 731295 731295 I adb     : adb.cpp:176 3300b8e62f44b35f: offline
+03-26 13:43:27.015 731295 731295 I adb     : transport.cpp:931 destroying transport 3300b8e62f44b35f
+03-26 13:43:27.015 731295 731295 I adb     : transport.cpp:407 BlockingConnectionAdapter(3300b8e62f44b35f): stopping
+03-26 13:43:27.016 731295 731295 I adb     : transport.cpp:425 BlockingConnectionAdapter(3300b8e62f44b35f): stopped
+03-26 13:43:27.019 731295 731295 I adb     : transport.cpp:294 BlockingConnectionAdapter(3300b8e62f44b35f): destructing
+03-26 13:43:27.019 731295 731295 I adb     : transport.cpp:400 BlockingConnectionAdapter(3300b8e62f44b35f): already stopped
+03-26 13:43:28.446 731295 1653823 I adb     : transport.cpp:335 3300b8e62f44b35f: read thread spawning
+03-26 13:43:28.446 731295 1653824 I adb     : transport.cpp:307 3300b8e62f44b35f: write thread spawning
+03-26 13:43:28.449 731295 731295 I adb     : transport.cpp:1727 fetching keys for transport 3300b8e62f44b35f
+03-26 13:43:28.449 731295 731295 I adb     : auth.cpp:468 Calling send_auth_response
+03-26 13:43:28.461 731295 731295 I adb     : adb.cpp:176 3300b8e62f44b35f: offline
+03-26 13:43:32.659 731295 1653823 I adb     : transport.cpp:339 3300b8e62f44b35f: read failed: Protocol error
+03-26 13:43:32.659 731295 1653823 I adb     : transport.cpp:1248 3300b8e62f44b35f: connection terminated: read failed
+03-26 13:43:32.661 731295 731295 I adb     : adb.cpp:176 3300b8e62f44b35f: offline
+03-26 13:43:32.661 731295 731295 I adb     : transport.cpp:931 destroying transport 3300b8e62f44b35f
+03-26 13:43:32.661 731295 731295 I adb     : transport.cpp:407 BlockingConnectionAdapter(3300b8e62f44b35f): stopping
+03-26 13:43:32.662 731295 731295 I adb     : transport.cpp:425 BlockingConnectionAdapter(3300b8e62f44b35f): stopped
+03-26 13:43:32.662 731295 731295 I adb     : transport.cpp:294 BlockingConnectionAdapter(3300b8e62f44b35f): destructing
+03-26 13:43:32.662 731295 731295 I adb     : transport.cpp:400 BlockingConnectionAdapter(3300b8e62f44b35f): already stopped
+03-26 13:43:34.272 731295 1653871 I adb     : transport.cpp:335 3300b8e62f44b35f: read thread spawning
+03-26 13:43:34.272 731295 1653872 I adb     : transport.cpp:307 3300b8e62f44b35f: write thread spawning
+03-26 13:43:34.275 731295 731295 I adb     : transport.cpp:1727 fetching keys for transport 3300b8e62f44b35f
+03-26 13:43:34.275 731295 731295 I adb     : auth.cpp:468 Calling send_auth_response
+03-26 13:43:34.289 731295 731295 I adb     : adb.cpp:176 3300b8e62f44b35f: offline
+03-26 13:43:43.565 731295 1653871 I adb     : transport.cpp:339 3300b8e62f44b35f: read failed: Cannot send after transport endpoint shutdown
+03-26 13:43:43.565 731295 1653871 I adb     : transport.cpp:1248 3300b8e62f44b35f: connection terminated: read failed
+03-26 13:43:43.565 731295 731295 I adb     : adb.cpp:176 3300b8e62f44b35f: offline
+03-26 13:43:43.565 731295 731295 I adb     : transport.cpp:931 destroying transport 3300b8e62f44b35f
+03-26 13:43:43.565 731295 731295 I adb     : transport.cpp:407 BlockingConnectionAdapter(3300b8e62f44b35f): stopping
+03-26 13:43:43.567 731295 731295 I adb     : transport.cpp:425 BlockingConnectionAdapter(3300b8e62f44b35f): stopped
+03-26 13:43:43.567 731295 731295 I adb     : transport.cpp:294 BlockingConnectionAdapter(3300b8e62f44b35f): destructing
+03-26 13:43:43.567 731295 731295 I adb     : transport.cpp:400 BlockingConnectionAdapter(3300b8e62f44b35f): already stopped
+03-26 13:43:45.174 731295 1653906 I adb     : transport.cpp:335 3300b8e62f44b35f: read thread spawning
+03-26 13:43:45.174 731295 1653907 I adb     : transport.cpp:307 3300b8e62f44b35f: write thread spawning
+03-26 13:43:45.176 731295 731295 I adb     : transport.cpp:1727 fetching keys for transport 3300b8e62f44b35f
+03-26 13:43:45.177 731295 731295 I adb     : auth.cpp:468 Calling send_auth_response
+03-26 13:43:45.186 731295 731295 I adb     : adb.cpp:176 3300b8e62f44b35f: offline
+03-26 13:47:00.717 731295 1653906 I adb     : transport.cpp:339 3300b8e62f44b35f: read failed: Protocol error
+03-26 13:47:00.717 731295 1653906 I adb     : transport.cpp:1248 3300b8e62f44b35f: connection terminated: read failed
+03-26 13:47:00.719 731295 731295 I adb     : adb.cpp:176 3300b8e62f44b35f: offline
+03-26 13:47:00.719 731295 731295 I adb     : transport.cpp:931 destroying transport 3300b8e62f44b35f
+03-26 13:47:00.719 731295 731295 I adb     : transport.cpp:407 BlockingConnectionAdapter(3300b8e62f44b35f): stopping
+03-26 13:47:00.719 731295 731295 I adb     : transport.cpp:425 BlockingConnectionAdapter(3300b8e62f44b35f): stopped
+03-26 13:47:00.720 731295 731295 I adb     : transport.cpp:294 BlockingConnectionAdapter(3300b8e62f44b35f): destructing
+03-26 13:47:00.720 731295 731295 I adb     : transport.cpp:400 BlockingConnectionAdapter(3300b8e62f44b35f): already stopped
+--- adb starting (pid 199378) ---
+04-12 10:29:47.560 199378 199378 I adb     : main.cpp:63 Android Debug Bridge version 1.0.41
+04-12 10:29:47.560 199378 199378 I adb     : main.cpp:63 Version 34.0.4-debian
+04-12 10:29:47.560 199378 199378 I adb     : main.cpp:63 Installed as /usr/lib/android-sdk/platform-tools/adb
+04-12 10:29:47.560 199378 199378 I adb     : main.cpp:63 Running on Linux 6.8.0-57-generic (x86_64)
+04-12 10:29:47.560 199378 199378 I adb     : main.cpp:63 
+04-12 10:29:47.561 199378 199378 I adb     : auth.cpp:416 adb_auth_init...
+04-12 10:29:47.562 199378 199378 I adb     : auth.cpp:152 loaded new key from '/home/user/.android/adbkey' with fingerprint 2EE34B16D0CE4651F3F703CF223FA6FFE8B9212500DEDD79D82D3B2CF8B89282
+04-12 10:29:47.562 199378 199378 I adb     : auth.cpp:391 adb_auth_inotify_init...
+04-12 10:29:47.640 199378 199383 I adb     : transport.cpp:335 3300b8e62f44b35f: read thread spawning
+04-12 10:29:47.640 199378 199384 I adb     : transport.cpp:307 3300b8e62f44b35f: write thread spawning
+04-12 10:29:47.644 199378 199378 I adb     : transport.cpp:1727 fetching keys for transport 3300b8e62f44b35f
+04-12 10:29:47.645 199378 199378 I adb     : auth.cpp:468 Calling send_auth_response
+04-12 10:29:47.665 199378 199378 I adb     : adb.cpp:176 3300b8e62f44b35f: offline
+04-12 10:30:35.445 199378 199383 I adb     : transport.cpp:339 3300b8e62f44b35f: read failed: Cannot send after transport endpoint shutdown
+04-12 10:30:35.445 199378 199383 I adb     : transport.cpp:1248 3300b8e62f44b35f: connection terminated: read failed
+04-12 10:30:35.446 199378 199378 I adb     : adb.cpp:176 3300b8e62f44b35f: offline
+04-12 10:30:35.446 199378 199378 I adb     : transport.cpp:931 destroying transport 3300b8e62f44b35f
+04-12 10:30:35.446 199378 199378 I adb     : transport.cpp:407 BlockingConnectionAdapter(3300b8e62f44b35f): stopping
+04-12 10:30:35.447 199378 199378 I adb     : transport.cpp:425 BlockingConnectionAdapter(3300b8e62f44b35f): stopped
+04-12 10:30:35.447 199378 199378 I adb     : transport.cpp:294 BlockingConnectionAdapter(3300b8e62f44b35f): destructing
+04-12 10:30:35.447 199378 199378 I adb     : transport.cpp:400 BlockingConnectionAdapter(3300b8e62f44b35f): already stopped
+04-12 10:46:34.621 199378 199944 I adb     : transport.cpp:335 3300b8e62f44b35f: read thread spawning
+04-12 10:46:34.621 199378 199945 I adb     : transport.cpp:307 3300b8e62f44b35f: write thread spawning
+04-12 10:46:34.626 199378 199378 I adb     : transport.cpp:1727 fetching keys for transport 3300b8e62f44b35f
+04-12 10:46:34.626 199378 199378 I adb     : auth.cpp:468 Calling send_auth_response
+04-12 10:46:34.653 199378 199378 I adb     : adb.cpp:176 3300b8e62f44b35f: offline
+04-12 10:46:39.731 199378 199944 I adb     : transport.cpp:339 3300b8e62f44b35f: read failed: Cannot send after transport endpoint shutdown
+04-12 10:46:39.731 199378 199944 I adb     : transport.cpp:1248 3300b8e62f44b35f: connection terminated: read failed
+04-12 10:46:39.732 199378 199378 I adb     : adb.cpp:176 3300b8e62f44b35f: offline
+04-12 10:46:39.732 199378 199378 I adb     : transport.cpp:931 destroying transport 3300b8e62f44b35f
+04-12 10:46:39.732 199378 199378 I adb     : transport.cpp:407 BlockingConnectionAdapter(3300b8e62f44b35f): stopping
+04-12 10:46:39.734 199378 199378 I adb     : transport.cpp:425 BlockingConnectionAdapter(3300b8e62f44b35f): stopped
+04-12 10:46:39.734 199378 199378 I adb     : transport.cpp:294 BlockingConnectionAdapter(3300b8e62f44b35f): destructing
+04-12 10:46:39.734 199378 199378 I adb     : transport.cpp:400 BlockingConnectionAdapter(3300b8e62f44b35f): already stopped
+04-12 10:46:41.266 199378 200011 I adb     : transport.cpp:335 3300b8e62f44b35f: read thread spawning
+04-12 10:46:41.266 199378 200012 I adb     : transport.cpp:307 3300b8e62f44b35f: write thread spawning
+04-12 10:46:41.275 199378 199378 I adb     : transport.cpp:1727 fetching keys for transport 3300b8e62f44b35f
+04-12 10:46:41.275 199378 199378 I adb     : auth.cpp:468 Calling send_auth_response
+04-12 10:46:41.298 199378 199378 I adb     : adb.cpp:176 3300b8e62f44b35f: offline
+04-12 10:46:49.922 199378 200011 I adb     : transport.cpp:339 3300b8e62f44b35f: read failed: Protocol error
+04-12 10:46:49.922 199378 200011 I adb     : transport.cpp:1248 3300b8e62f44b35f: connection terminated: read failed
+04-12 10:46:49.925 199378 199378 I adb     : adb.cpp:176 3300b8e62f44b35f: offline
+04-12 10:46:49.925 199378 199378 I adb     : transport.cpp:931 destroying transport 3300b8e62f44b35f
+04-12 10:46:49.925 199378 199378 I adb     : transport.cpp:407 BlockingConnectionAdapter(3300b8e62f44b35f): stopping
+04-12 10:46:49.926 199378 200012 E adb     : transport_usb.cpp:166 remote usb: 1 - write terminated: Connection timed out
+04-12 10:46:49.926 199378 199378 I adb     : transport.cpp:425 BlockingConnectionAdapter(3300b8e62f44b35f): stopped
+04-12 10:46:49.926 199378 199378 I adb     : transport.cpp:294 BlockingConnectionAdapter(3300b8e62f44b35f): destructing
+04-12 10:46:49.927 199378 199378 I adb     : transport.cpp:400 BlockingConnectionAdapter(3300b8e62f44b35f): already stopped
+04-12 10:46:50.749 199378 200066 I adb     : transport.cpp:335 3300b8e62f44b35f: read thread spawning
+04-12 10:46:50.749 199378 200067 I adb     : transport.cpp:307 3300b8e62f44b35f: write thread spawning
+04-12 10:46:50.753 199378 199378 I adb     : transport.cpp:1727 fetching keys for transport 3300b8e62f44b35f
+04-12 10:46:50.754 199378 199378 I adb     : auth.cpp:468 Calling send_auth_response
+04-12 10:46:50.772 199378 199378 I adb     : adb.cpp:176 3300b8e62f44b35f: offline
+04-12 10:46:54.075 199378 200066 I adb     : transport.cpp:339 3300b8e62f44b35f: read failed: Protocol error
+04-12 10:46:54.076 199378 200066 I adb     : transport.cpp:1248 3300b8e62f44b35f: connection terminated: read failed
+04-12 10:46:54.076 199378 199378 I adb     : adb.cpp:176 3300b8e62f44b35f: offline
+04-12 10:46:54.076 199378 199378 I adb     : transport.cpp:931 destroying transport 3300b8e62f44b35f
+04-12 10:46:54.076 199378 199378 I adb     : transport.cpp:407 BlockingConnectionAdapter(3300b8e62f44b35f): stopping
+04-12 10:46:54.079 199378 199378 I adb     : transport.cpp:425 BlockingConnectionAdapter(3300b8e62f44b35f): stopped
+04-12 10:46:54.079 199378 199378 I adb     : transport.cpp:294 BlockingConnectionAdapter(3300b8e62f44b35f): destructing
+04-12 10:46:54.079 199378 199378 I adb     : transport.cpp:400 BlockingConnectionAdapter(3300b8e62f44b35f): already stopped
+04-12 10:46:54.963 199378 200115 I adb     : transport.cpp:307 3300b8e62f44b35f: write thread spawning
+04-12 10:46:54.963 199378 200114 I adb     : transport.cpp:335 3300b8e62f44b35f: read thread spawning
+04-12 10:46:54.966 199378 199378 I adb     : transport.cpp:1727 fetching keys for transport 3300b8e62f44b35f
+04-12 10:46:54.966 199378 199378 I adb     : auth.cpp:468 Calling send_auth_response
+04-12 10:46:54.977 199378 199378 I adb     : adb.cpp:176 3300b8e62f44b35f: offline
+04-12 10:47:01.400 199378 200114 I adb     : transport.cpp:339 3300b8e62f44b35f: read failed: Cannot send after transport endpoint shutdown
+04-12 10:47:01.401 199378 200114 I adb     : transport.cpp:1248 3300b8e62f44b35f: connection terminated: read failed
+04-12 10:47:01.403 199378 199378 I adb     : adb.cpp:176 3300b8e62f44b35f: offline
+04-12 10:47:01.403 199378 199378 I adb     : transport.cpp:931 destroying transport 3300b8e62f44b35f
+04-12 10:47:01.403 199378 199378 I adb     : transport.cpp:407 BlockingConnectionAdapter(3300b8e62f44b35f): stopping
+04-12 10:47:01.403 199378 200115 E adb     : transport_usb.cpp:166 remote usb: 1 - write terminated: Connection timed out
+04-12 10:47:01.404 199378 199378 I adb     : transport.cpp:425 BlockingConnectionAdapter(3300b8e62f44b35f): stopped
+04-12 10:47:01.404 199378 199378 I adb     : transport.cpp:294 BlockingConnectionAdapter(3300b8e62f44b35f): destructing
+04-12 10:47:01.404 199378 199378 I adb     : transport.cpp:400 BlockingConnectionAdapter(3300b8e62f44b35f): already stopped
+04-12 10:47:02.336 199378 200168 I adb     : transport.cpp:335 3300b8e62f44b35f: read thread spawning
+04-12 10:47:02.336 199378 200169 I adb     : transport.cpp:307 3300b8e62f44b35f: write thread spawning
+04-12 10:47:02.340 199378 199378 I adb     : transport.cpp:1727 fetching keys for transport 3300b8e62f44b35f
+04-12 10:47:02.340 199378 199378 I adb     : auth.cpp:468 Calling send_auth_response
+04-12 10:47:02.354 199378 199378 I adb     : adb.cpp:176 3300b8e62f44b35f: offline
+04-12 10:47:02.394 199378 199378 W adb     : sockets.cpp:310 timeout expired while flushing socket, closing
+04-12 10:47:04.453 199378 200168 I adb     : transport.cpp:339 3300b8e62f44b35f: read failed: Cannot send after transport endpoint shutdown
+04-12 10:47:04.454 199378 200168 I adb     : transport.cpp:1248 3300b8e62f44b35f: connection terminated: read failed
+04-12 10:47:04.455 199378 199378 I adb     : adb.cpp:176 3300b8e62f44b35f: offline
+04-12 10:47:04.455 199378 199378 I adb     : transport.cpp:931 destroying transport 3300b8e62f44b35f
+04-12 10:47:04.455 199378 199378 I adb     : transport.cpp:407 BlockingConnectionAdapter(3300b8e62f44b35f): stopping
+04-12 10:47:04.458 199378 199378 I adb     : transport.cpp:425 BlockingConnectionAdapter(3300b8e62f44b35f): stopped
+04-12 10:47:04.458 199378 199378 I adb     : transport.cpp:294 BlockingConnectionAdapter(3300b8e62f44b35f): destructing
+04-12 10:47:04.458 199378 199378 I adb     : transport.cpp:400 BlockingConnectionAdapter(3300b8e62f44b35f): already stopped
+04-12 10:47:05.496 199378 200211 I adb     : transport.cpp:335 3300b8e62f44b35f: read thread spawning
+04-12 10:47:05.496 199378 200212 I adb     : transport.cpp:307 3300b8e62f44b35f: write thread spawning
+04-12 10:47:05.498 199378 199378 I adb     : transport.cpp:1727 fetching keys for transport 3300b8e62f44b35f
+04-12 10:47:05.499 199378 199378 I adb     : auth.cpp:468 Calling send_auth_response
+04-12 10:47:05.509 199378 199378 I adb     : adb.cpp:176 3300b8e62f44b35f: offline
+04-12 10:47:08.353 199378 200211 I adb     : transport.cpp:339 3300b8e62f44b35f: read failed: Cannot send after transport endpoint shutdown
+04-12 10:47:08.353 199378 200211 I adb     : transport.cpp:1248 3300b8e62f44b35f: connection terminated: read failed
+04-12 10:47:08.355 199378 199378 I adb     : adb.cpp:176 3300b8e62f44b35f: offline
+04-12 10:47:08.355 199378 199378 I adb     : transport.cpp:931 destroying transport 3300b8e62f44b35f
+04-12 10:47:08.355 199378 199378 I adb     : transport.cpp:407 BlockingConnectionAdapter(3300b8e62f44b35f): stopping
+04-12 10:47:08.355 199378 200212 E adb     : transport_usb.cpp:166 remote usb: 1 - write terminated: Connection timed out
+04-12 10:47:08.355 199378 199378 I adb     : transport.cpp:425 BlockingConnectionAdapter(3300b8e62f44b35f): stopped
+04-12 10:47:08.355 199378 199378 I adb     : transport.cpp:294 BlockingConnectionAdapter(3300b8e62f44b35f): destructing
+04-12 10:47:08.356 199378 199378 I adb     : transport.cpp:400 BlockingConnectionAdapter(3300b8e62f44b35f): already stopped
+04-12 10:47:09.341 199378 199378 W adb     : sockets.cpp:310 timeout expired while flushing socket, closing
+04-12 10:47:10.830 199378 200263 I adb     : transport.cpp:335 3300b8e62f44b35f: read thread spawning
+04-12 10:47:10.830 199378 200264 I adb     : transport.cpp:307 3300b8e62f44b35f: write thread spawning
+04-12 10:47:10.833 199378 199378 I adb     : transport.cpp:1727 fetching keys for transport 3300b8e62f44b35f
+04-12 10:47:10.833 199378 199378 I adb     : auth.cpp:468 Calling send_auth_response
+04-12 10:47:10.843 199378 199378 I adb     : adb.cpp:176 3300b8e62f44b35f: offline
+04-12 10:47:12.233 199378 200263 I adb     : transport.cpp:339 3300b8e62f44b35f: read failed: Cannot send after transport endpoint shutdown
+04-12 10:47:12.233 199378 200263 I adb     : transport.cpp:1248 3300b8e62f44b35f: connection terminated: read failed
+04-12 10:47:12.235 199378 199378 I adb     : adb.cpp:176 3300b8e62f44b35f: offline
+04-12 10:47:12.235 199378 199378 I adb     : transport.cpp:931 destroying transport 3300b8e62f44b35f
+04-12 10:47:12.235 199378 199378 I adb     : transport.cpp:407 BlockingConnectionAdapter(3300b8e62f44b35f): stopping
+04-12 10:47:12.235 199378 199378 I adb     : transport.cpp:425 BlockingConnectionAdapter(3300b8e62f44b35f): stopped
+04-12 10:47:12.235 199378 199378 I adb     : transport.cpp:294 BlockingConnectionAdapter(3300b8e62f44b35f): destructing
+04-12 10:47:12.235 199378 199378 I adb     : transport.cpp:400 BlockingConnectionAdapter(3300b8e62f44b35f): already stopped
+04-12 10:47:12.943 199378 200302 I adb     : transport.cpp:335 3300b8e62f44b35f: read thread spawning
+04-12 10:47:12.944 199378 200303 I adb     : transport.cpp:307 3300b8e62f44b35f: write thread spawning
+04-12 10:47:12.946 199378 199378 I adb     : transport.cpp:1727 fetching keys for transport 3300b8e62f44b35f
+04-12 10:47:12.946 199378 199378 I adb     : auth.cpp:468 Calling send_auth_response
+04-12 10:47:12.956 199378 199378 I adb     : adb.cpp:176 3300b8e62f44b35f: offline
+04-12 10:47:29.148 199378 200302 I adb     : transport.cpp:339 3300b8e62f44b35f: read failed: Cannot send after transport endpoint shutdown
+04-12 10:47:29.148 199378 200302 I adb     : transport.cpp:1248 3300b8e62f44b35f: connection terminated: read failed
+04-12 10:47:29.149 199378 199378 I adb     : adb.cpp:176 3300b8e62f44b35f: offline
+04-12 10:47:29.149 199378 199378 I adb     : transport.cpp:931 destroying transport 3300b8e62f44b35f
+04-12 10:47:29.149 199378 199378 I adb     : transport.cpp:407 BlockingConnectionAdapter(3300b8e62f44b35f): stopping
+04-12 10:47:29.150 199378 199378 I adb     : transport.cpp:425 BlockingConnectionAdapter(3300b8e62f44b35f): stopped
+04-12 10:47:29.150 199378 199378 I adb     : transport.cpp:294 BlockingConnectionAdapter(3300b8e62f44b35f): destructing
+04-12 10:47:29.150 199378 199378 I adb     : transport.cpp:400 BlockingConnectionAdapter(3300b8e62f44b35f): already stopped
+04-12 21:46:26.951 199378 207456 I adb     : transport.cpp:335 3300b8e62f44b35f: read thread spawning
+04-12 21:46:26.951 199378 207457 I adb     : transport.cpp:307 3300b8e62f44b35f: write thread spawning
+04-12 21:46:26.955 199378 199378 I adb     : transport.cpp:1727 fetching keys for transport 3300b8e62f44b35f
+04-12 21:46:26.955 199378 199378 I adb     : auth.cpp:468 Calling send_auth_response
+04-12 21:46:26.984 199378 199378 I adb     : adb.cpp:176 3300b8e62f44b35f: offline
+04-12 21:46:34.026 199378 207456 I adb     : transport.cpp:339 3300b8e62f44b35f: read failed: Cannot send after transport endpoint shutdown
+04-12 21:46:34.026 199378 207456 I adb     : transport.cpp:1248 3300b8e62f44b35f: connection terminated: read failed
+04-12 21:46:34.027 199378 199378 I adb     : adb.cpp:176 3300b8e62f44b35f: offline
+04-12 21:46:34.027 199378 199378 I adb     : transport.cpp:931 destroying transport 3300b8e62f44b35f
+04-12 21:46:34.027 199378 199378 I adb     : transport.cpp:407 BlockingConnectionAdapter(3300b8e62f44b35f): stopping
+04-12 21:46:34.027 199378 199378 I adb     : transport.cpp:425 BlockingConnectionAdapter(3300b8e62f44b35f): stopped
+04-12 21:46:34.027 199378 199378 I adb     : transport.cpp:294 BlockingConnectionAdapter(3300b8e62f44b35f): destructing
+04-12 21:46:34.027 199378 199378 I adb     : transport.cpp:400 BlockingConnectionAdapter(3300b8e62f44b35f): already stopped
+04-12 21:46:35.759 199378 207511 I adb     : transport.cpp:307 3300b8e62f44b35f: write thread spawning
+04-12 21:46:35.759 199378 207510 I adb     : transport.cpp:335 3300b8e62f44b35f: read thread spawning
+04-12 21:46:35.765 199378 199378 I adb     : transport.cpp:1727 fetching keys for transport 3300b8e62f44b35f
+04-12 21:46:35.765 199378 199378 I adb     : auth.cpp:468 Calling send_auth_response
+04-12 21:46:35.776 199378 199378 I adb     : adb.cpp:176 3300b8e62f44b35f: offline
+04-12 22:23:22.084 199378 207510 I adb     : transport.cpp:339 3300b8e62f44b35f: read failed: Cannot send after transport endpoint shutdown
+04-12 22:23:22.084 199378 207510 I adb     : transport.cpp:1248 3300b8e62f44b35f: connection terminated: read failed
+04-12 22:23:22.084 199378 199378 I adb     : adb.cpp:176 3300b8e62f44b35f: offline
+04-12 22:23:22.084 199378 199378 I adb     : transport.cpp:931 destroying transport 3300b8e62f44b35f
+04-12 22:23:22.084 199378 199378 I adb     : transport.cpp:407 BlockingConnectionAdapter(3300b8e62f44b35f): stopping
+04-12 22:23:22.084 199378 199378 I adb     : transport.cpp:425 BlockingConnectionAdapter(3300b8e62f44b35f): stopped
+04-12 22:23:22.084 199378 199378 I adb     : transport.cpp:294 BlockingConnectionAdapter(3300b8e62f44b35f): destructing
+04-12 22:23:22.085 199378 199378 I adb     : transport.cpp:400 BlockingConnectionAdapter(3300b8e62f44b35f): already stopped
+04-13 22:02:19.539 199378 219311 I adb     : transport.cpp:335 3300b8e62f44b35f: read thread spawning
+04-13 22:02:19.539 199378 219312 I adb     : transport.cpp:307 3300b8e62f44b35f: write thread spawning
+04-13 22:02:19.542 199378 199378 I adb     : adb.cpp:172 3300b8e62f44b35f: already offline
+04-13 22:04:01.809 199378 219311 I adb     : transport.cpp:339 3300b8e62f44b35f: read failed: Protocol error
+04-13 22:04:01.810 199378 219311 I adb     : transport.cpp:1248 3300b8e62f44b35f: connection terminated: read failed
+04-13 22:04:01.810 199378 199378 I adb     : adb.cpp:176 3300b8e62f44b35f: offline
+04-13 22:04:01.811 199378 199378 I adb     : transport.cpp:931 destroying transport 3300b8e62f44b35f
+04-13 22:04:01.811 199378 199378 I adb     : transport.cpp:407 BlockingConnectionAdapter(3300b8e62f44b35f): stopping
+04-13 22:04:01.811 199378 199378 I adb     : transport.cpp:425 BlockingConnectionAdapter(3300b8e62f44b35f): stopped
+04-13 22:04:01.811 199378 199378 I adb     : transport.cpp:294 BlockingConnectionAdapter(3300b8e62f44b35f): destructing
+04-13 22:04:01.811 199378 199378 I adb     : transport.cpp:400 BlockingConnectionAdapter(3300b8e62f44b35f): already stopped
+04-13 22:44:54.918 199378 220103 I adb     : transport.cpp:307 3300b8e62f44b35f: write thread spawning
+04-13 22:44:54.918 199378 220102 I adb     : transport.cpp:335 3300b8e62f44b35f: read thread spawning
+04-13 22:44:54.921 199378 199378 I adb     : transport.cpp:1727 fetching keys for transport 3300b8e62f44b35f
+04-13 22:44:54.921 199378 199378 I adb     : auth.cpp:468 Calling send_auth_response
+04-13 22:44:54.941 199378 199378 I adb     : adb.cpp:176 3300b8e62f44b35f: offline
+04-13 22:44:59.542 199378 220102 I adb     : transport.cpp:339 3300b8e62f44b35f: read failed: Cannot send after transport endpoint shutdown
+04-13 22:44:59.542 199378 220102 I adb     : transport.cpp:1248 3300b8e62f44b35f: connection terminated: read failed
+04-13 22:44:59.544 199378 199378 I adb     : adb.cpp:176 3300b8e62f44b35f: offline
+04-13 22:44:59.544 199378 199378 I adb     : transport.cpp:931 destroying transport 3300b8e62f44b35f
+04-13 22:44:59.544 199378 199378 I adb     : transport.cpp:407 BlockingConnectionAdapter(3300b8e62f44b35f): stopping
+04-13 22:44:59.545 199378 199378 I adb     : transport.cpp:425 BlockingConnectionAdapter(3300b8e62f44b35f): stopped
+04-13 22:44:59.545 199378 199378 I adb     : transport.cpp:294 BlockingConnectionAdapter(3300b8e62f44b35f): destructing
+04-13 22:44:59.545 199378 199378 I adb     : transport.cpp:400 BlockingConnectionAdapter(3300b8e62f44b35f): already stopped
+04-13 22:45:00.188 199378 220153 I adb     : transport.cpp:335 3300b8e62f44b35f: read thread spawning
+04-13 22:45:00.188 199378 220154 I adb     : transport.cpp:307 3300b8e62f44b35f: write thread spawning
+04-13 22:45:00.192 199378 199378 I adb     : transport.cpp:1727 fetching keys for transport 3300b8e62f44b35f
+04-13 22:45:00.192 199378 199378 I adb     : auth.cpp:468 Calling send_auth_response
+04-13 22:45:00.211 199378 199378 I adb     : adb.cpp:176 3300b8e62f44b35f: offline
+04-13 22:47:17.854 199378 220153 I adb     : transport.cpp:339 3300b8e62f44b35f: read failed: Protocol error
+04-13 22:47:17.854 199378 220153 I adb     : transport.cpp:1248 3300b8e62f44b35f: connection terminated: read failed
+04-13 22:47:17.854 199378 199378 I adb     : adb.cpp:176 3300b8e62f44b35f: offline
+04-13 22:47:17.854 199378 199378 I adb     : transport.cpp:931 destroying transport 3300b8e62f44b35f
+04-13 22:47:17.854 199378 199378 I adb     : transport.cpp:407 BlockingConnectionAdapter(3300b8e62f44b35f): stopping
+04-13 22:47:17.857 199378 199378 I adb     : transport.cpp:425 BlockingConnectionAdapter(3300b8e62f44b35f): stopped
+04-13 22:47:17.857 199378 199378 I adb     : transport.cpp:294 BlockingConnectionAdapter(3300b8e62f44b35f): destructing
+04-13 22:47:17.857 199378 199378 I adb     : transport.cpp:400 BlockingConnectionAdapter(3300b8e62f44b35f): already stopped
+04-13 22:52:19.571 199378 220513 I adb     : transport.cpp:335 3300b8e62f44b35f: read thread spawning
+04-13 22:52:19.571 199378 220514 I adb     : transport.cpp:307 3300b8e62f44b35f: write thread spawning
+04-13 22:52:19.572 199378 199378 I adb     : adb.cpp:172 3300b8e62f44b35f: already offline
+04-13 22:54:48.439 199378 220513 I adb     : transport.cpp:339 3300b8e62f44b35f: read failed: Cannot send after transport endpoint shutdown
+04-13 22:54:48.439 199378 220513 I adb     : transport.cpp:1248 3300b8e62f44b35f: connection terminated: read failed
+04-13 22:54:48.441 199378 199378 I adb     : adb.cpp:176 3300b8e62f44b35f: offline
+04-13 22:54:48.441 199378 199378 I adb     : transport.cpp:931 destroying transport 3300b8e62f44b35f
+04-13 22:54:48.441 199378 199378 I adb     : transport.cpp:407 BlockingConnectionAdapter(3300b8e62f44b35f): stopping
+04-13 22:54:48.442 199378 199378 I adb     : transport.cpp:425 BlockingConnectionAdapter(3300b8e62f44b35f): stopped
+04-13 22:54:48.442 199378 199378 I adb     : transport.cpp:294 BlockingConnectionAdapter(3300b8e62f44b35f): destructing
+04-13 22:54:48.442 199378 199378 I adb     : transport.cpp:400 BlockingConnectionAdapter(3300b8e62f44b35f): already stopped
+04-13 23:07:34.752 199378 221525 I adb     : transport.cpp:335 3300b8e62f44b35f: read thread spawning
+04-13 23:07:34.752 199378 221526 I adb     : transport.cpp:307 3300b8e62f44b35f: write thread spawning
+04-13 23:07:34.756 199378 199378 I adb     : transport.cpp:1727 fetching keys for transport 3300b8e62f44b35f
+04-13 23:07:34.756 199378 199378 I adb     : auth.cpp:468 Calling send_auth_response
+04-13 23:07:34.770 199378 199378 I adb     : adb.cpp:176 3300b8e62f44b35f: offline
+04-13 23:07:40.117 199378 221525 I adb     : transport.cpp:339 3300b8e62f44b35f: read failed: Protocol error
+04-13 23:07:40.117 199378 221525 I adb     : transport.cpp:1248 3300b8e62f44b35f: connection terminated: read failed
+04-13 23:07:40.121 199378 199378 I adb     : adb.cpp:176 3300b8e62f44b35f: offline
+04-13 23:07:40.121 199378 199378 I adb     : transport.cpp:931 destroying transport 3300b8e62f44b35f
+04-13 23:07:40.121 199378 199378 I adb     : transport.cpp:407 BlockingConnectionAdapter(3300b8e62f44b35f): stopping
+04-13 23:07:40.122 199378 199378 I adb     : transport.cpp:425 BlockingConnectionAdapter(3300b8e62f44b35f): stopped
+04-13 23:07:40.122 199378 199378 I adb     : transport.cpp:294 BlockingConnectionAdapter(3300b8e62f44b35f): destructing
+04-13 23:07:40.122 199378 199378 I adb     : transport.cpp:400 BlockingConnectionAdapter(3300b8e62f44b35f): already stopped
+04-13 23:07:41.070 199378 221588 I adb     : transport.cpp:335 3300b8e62f44b35f: read thread spawning
+04-13 23:07:41.071 199378 221589 I adb     : transport.cpp:307 3300b8e62f44b35f: write thread spawning
+04-13 23:07:41.073 199378 199378 I adb     : transport.cpp:1727 fetching keys for transport 3300b8e62f44b35f
+04-13 23:07:41.073 199378 199378 I adb     : auth.cpp:468 Calling send_auth_response
+04-13 23:07:41.083 199378 199378 I adb     : adb.cpp:176 3300b8e62f44b35f: offline
+04-13 23:19:26.757 199378 221588 I adb     : transport.cpp:339 3300b8e62f44b35f: read failed: Protocol error
+04-13 23:19:26.757 199378 221588 I adb     : transport.cpp:1248 3300b8e62f44b35f: connection terminated: read failed
+04-13 23:19:26.757 199378 199378 I adb     : adb.cpp:176 3300b8e62f44b35f: offline
+04-13 23:19:26.758 199378 199378 I adb     : transport.cpp:931 destroying transport 3300b8e62f44b35f
+04-13 23:19:26.758 199378 199378 I adb     : transport.cpp:407 BlockingConnectionAdapter(3300b8e62f44b35f): stopping
+04-13 23:19:26.760 199378 199378 I adb     : transport.cpp:425 BlockingConnectionAdapter(3300b8e62f44b35f): stopped
+04-13 23:19:26.760 199378 199378 I adb     : transport.cpp:294 BlockingConnectionAdapter(3300b8e62f44b35f): destructing
+04-13 23:19:26.760 199378 199378 I adb     : transport.cpp:400 BlockingConnectionAdapter(3300b8e62f44b35f): already stopped
+04-14 02:24:28.535 199378 228828 I adb     : transport.cpp:335 3300b8e62f44b35f: read thread spawning
+04-14 02:24:28.535 199378 228829 I adb     : transport.cpp:307 3300b8e62f44b35f: write thread spawning
+04-14 02:24:28.539 199378 199378 I adb     : transport.cpp:1727 fetching keys for transport 3300b8e62f44b35f
+04-14 02:24:28.539 199378 199378 I adb     : auth.cpp:468 Calling send_auth_response
+04-14 02:24:28.565 199378 199378 I adb     : adb.cpp:176 3300b8e62f44b35f: offline
+04-14 02:24:30.254 199378 228828 I adb     : transport.cpp:339 3300b8e62f44b35f: read failed: Protocol error
+04-14 02:24:30.254 199378 228828 I adb     : transport.cpp:1248 3300b8e62f44b35f: connection terminated: read failed
+04-14 02:24:30.255 199378 199378 I adb     : adb.cpp:176 3300b8e62f44b35f: offline
+04-14 02:24:30.255 199378 199378 I adb     : transport.cpp:931 destroying transport 3300b8e62f44b35f
+04-14 02:24:30.255 199378 199378 I adb     : transport.cpp:407 BlockingConnectionAdapter(3300b8e62f44b35f): stopping
+04-14 02:24:30.258 199378 199378 I adb     : transport.cpp:425 BlockingConnectionAdapter(3300b8e62f44b35f): stopped
+04-14 02:24:30.259 199378 199378 I adb     : transport.cpp:294 BlockingConnectionAdapter(3300b8e62f44b35f): destructing
+04-14 02:24:30.259 199378 199378 I adb     : transport.cpp:400 BlockingConnectionAdapter(3300b8e62f44b35f): already stopped
+04-14 02:28:02.790 199378 228991 I adb     : transport.cpp:335 3300b8e62f44b35f: read thread spawning
+04-14 02:28:02.790 199378 228992 I adb     : transport.cpp:307 3300b8e62f44b35f: write thread spawning
+04-14 02:28:02.791 199378 199378 I adb     : adb.cpp:172 3300b8e62f44b35f: already offline
+04-14 02:33:48.531 199378 228991 I adb     : transport.cpp:339 3300b8e62f44b35f: read failed: Cannot send after transport endpoint shutdown
+04-14 02:33:48.531 199378 228991 I adb     : transport.cpp:1248 3300b8e62f44b35f: connection terminated: read failed
+04-14 02:33:48.531 199378 199378 I adb     : adb.cpp:176 3300b8e62f44b35f: offline
+04-14 02:33:48.531 199378 199378 I adb     : transport.cpp:931 destroying transport 3300b8e62f44b35f
+04-14 02:33:48.531 199378 199378 I adb     : transport.cpp:407 BlockingConnectionAdapter(3300b8e62f44b35f): stopping
+04-14 02:33:48.531 199378 199378 I adb     : transport.cpp:425 BlockingConnectionAdapter(3300b8e62f44b35f): stopped
+04-14 02:33:48.532 199378 199378 I adb     : transport.cpp:294 BlockingConnectionAdapter(3300b8e62f44b35f): destructing
+04-14 02:33:48.532 199378 199378 I adb     : transport.cpp:400 BlockingConnectionAdapter(3300b8e62f44b35f): already stopped
+04-14 03:28:41.434 199378 234130 I adb     : transport.cpp:335 3300b8e62f44b35f: read thread spawning
+04-14 03:28:41.434 199378 234131 I adb     : transport.cpp:307 3300b8e62f44b35f: write thread spawning
+04-14 03:28:41.438 199378 199378 I adb     : transport.cpp:1727 fetching keys for transport 3300b8e62f44b35f
+04-14 03:28:41.438 199378 199378 I adb     : auth.cpp:468 Calling send_auth_response
+04-14 03:28:41.459 199378 199378 I adb     : adb.cpp:176 3300b8e62f44b35f: offline
+04-14 03:28:48.055 199378 234130 I adb     : transport.cpp:339 3300b8e62f44b35f: read failed: Protocol error
+04-14 03:28:48.055 199378 234130 I adb     : transport.cpp:1248 3300b8e62f44b35f: connection terminated: read failed
+04-14 03:28:48.056 199378 199378 I adb     : adb.cpp:176 3300b8e62f44b35f: offline
+04-14 03:28:48.057 199378 199378 I adb     : transport.cpp:931 destroying transport 3300b8e62f44b35f
+04-14 03:28:48.057 199378 199378 I adb     : transport.cpp:407 BlockingConnectionAdapter(3300b8e62f44b35f): stopping
+04-14 03:28:48.057 199378 199378 I adb     : transport.cpp:425 BlockingConnectionAdapter(3300b8e62f44b35f): stopped
+04-14 03:28:48.057 199378 199378 I adb     : transport.cpp:294 BlockingConnectionAdapter(3300b8e62f44b35f): destructing
+04-14 03:28:48.057 199378 199378 I adb     : transport.cpp:400 BlockingConnectionAdapter(3300b8e62f44b35f): already stopped
+04-14 03:28:48.805 199378 234170 I adb     : transport.cpp:335 3300b8e62f44b35f: read thread spawning
+04-14 03:28:48.805 199378 234171 I adb     : transport.cpp:307 3300b8e62f44b35f: write thread spawning
+04-14 03:28:48.807 199378 199378 I adb     : transport.cpp:1727 fetching keys for transport 3300b8e62f44b35f
+04-14 03:28:48.807 199378 199378 I adb     : auth.cpp:468 Calling send_auth_response
+04-14 03:28:48.818 199378 199378 I adb     : adb.cpp:176 3300b8e62f44b35f: offline
+04-14 03:31:55.237 199378 234170 I adb     : transport.cpp:339 3300b8e62f44b35f: read failed: Cannot send after transport endpoint shutdown
+04-14 03:31:55.237 199378 234170 I adb     : transport.cpp:1248 3300b8e62f44b35f: connection terminated: read failed
+04-14 03:31:55.239 199378 199378 I adb     : adb.cpp:176 3300b8e62f44b35f: offline
+04-14 03:31:55.239 199378 199378 I adb     : transport.cpp:931 destroying transport 3300b8e62f44b35f
+04-14 03:31:55.239 199378 199378 I adb     : transport.cpp:407 BlockingConnectionAdapter(3300b8e62f44b35f): stopping
+04-14 03:31:55.239 199378 199378 I adb     : transport.cpp:425 BlockingConnectionAdapter(3300b8e62f44b35f): stopped
+04-14 03:31:55.239 199378 199378 I adb     : transport.cpp:294 BlockingConnectionAdapter(3300b8e62f44b35f): destructing
+04-14 03:31:55.239 199378 199378 I adb     : transport.cpp:400 BlockingConnectionAdapter(3300b8e62f44b35f): already stopped
+04-14 14:42:44.864 199378 240069 I adb     : transport.cpp:307 3300b8e62f44b35f: write thread spawning
+04-14 14:42:44.865 199378 240068 I adb     : transport.cpp:335 3300b8e62f44b35f: read thread spawning
+04-14 14:42:44.871 199378 199378 I adb     : transport.cpp:1727 fetching keys for transport 3300b8e62f44b35f
+04-14 14:42:44.871 199378 199378 I adb     : auth.cpp:468 Calling send_auth_response
+04-14 14:42:44.912 199378 199378 I adb     : adb.cpp:176 3300b8e62f44b35f: offline
+04-14 14:42:50.188 199378 240068 I adb     : transport.cpp:339 3300b8e62f44b35f: read failed: Cannot send after transport endpoint shutdown
+04-14 14:42:50.188 199378 240068 I adb     : transport.cpp:1248 3300b8e62f44b35f: connection terminated: read failed
+04-14 14:42:50.188 199378 199378 I adb     : adb.cpp:176 3300b8e62f44b35f: offline
+04-14 14:42:50.188 199378 199378 I adb     : transport.cpp:931 destroying transport 3300b8e62f44b35f
+04-14 14:42:50.188 199378 199378 I adb     : transport.cpp:407 BlockingConnectionAdapter(3300b8e62f44b35f): stopping
+04-14 14:42:50.189 199378 199378 I adb     : transport.cpp:425 BlockingConnectionAdapter(3300b8e62f44b35f): stopped
+04-14 14:42:50.189 199378 199378 I adb     : transport.cpp:294 BlockingConnectionAdapter(3300b8e62f44b35f): destructing
+04-14 14:42:50.189 199378 199378 I adb     : transport.cpp:400 BlockingConnectionAdapter(3300b8e62f44b35f): already stopped
+04-14 14:42:51.192 199378 240152 I adb     : transport.cpp:335 3300b8e62f44b35f: read thread spawning
+04-14 14:42:51.192 199378 240153 I adb     : transport.cpp:307 3300b8e62f44b35f: write thread spawning
+04-14 14:42:51.195 199378 199378 I adb     : transport.cpp:1727 fetching keys for transport 3300b8e62f44b35f
+04-14 14:42:51.195 199378 199378 I adb     : auth.cpp:468 Calling send_auth_response
+04-14 14:42:51.208 199378 199378 I adb     : adb.cpp:176 3300b8e62f44b35f: offline
+04-14 14:55:52.664 199378 240152 I adb     : transport.cpp:339 3300b8e62f44b35f: read failed: Cannot send after transport endpoint shutdown
+04-14 14:55:52.665 199378 240152 I adb     : transport.cpp:1248 3300b8e62f44b35f: connection terminated: read failed
+04-14 14:55:52.665 199378 199378 I adb     : adb.cpp:176 3300b8e62f44b35f: offline
+04-14 14:55:52.665 199378 199378 I adb     : transport.cpp:931 destroying transport 3300b8e62f44b35f
+04-14 14:55:52.665 199378 199378 I adb     : transport.cpp:407 BlockingConnectionAdapter(3300b8e62f44b35f): stopping
+04-14 14:55:52.665 199378 199378 I adb     : transport.cpp:425 BlockingConnectionAdapter(3300b8e62f44b35f): stopped
+04-14 14:55:52.665 199378 199378 I adb     : transport.cpp:294 BlockingConnectionAdapter(3300b8e62f44b35f): destructing
+04-14 14:55:52.665 199378 199378 I adb     : transport.cpp:400 BlockingConnectionAdapter(3300b8e62f44b35f): already stopped
+04-20 13:40:06.624 199378 480655 I adb     : transport.cpp:307 3300b8e62f44b35f: write thread spawning
+04-20 13:40:06.626 199378 480654 I adb     : transport.cpp:335 3300b8e62f44b35f: read thread spawning
+04-20 13:40:06.642 199378 199378 I adb     : adb.cpp:172 3300b8e62f44b35f: already offline
+04-20 13:42:38.043 199378 480654 I adb     : transport.cpp:339 3300b8e62f44b35f: read failed: Protocol error
+04-20 13:42:38.043 199378 480654 I adb     : transport.cpp:1248 3300b8e62f44b35f: connection terminated: read failed
+04-20 13:42:38.044 199378 199378 I adb     : adb.cpp:176 3300b8e62f44b35f: offline
+04-20 13:42:38.044 199378 199378 I adb     : transport.cpp:931 destroying transport 3300b8e62f44b35f
+04-20 13:42:38.044 199378 199378 I adb     : transport.cpp:407 BlockingConnectionAdapter(3300b8e62f44b35f): stopping
+04-20 13:42:38.045 199378 199378 I adb     : transport.cpp:425 BlockingConnectionAdapter(3300b8e62f44b35f): stopped
+04-20 13:42:38.045 199378 199378 I adb     : transport.cpp:294 BlockingConnectionAdapter(3300b8e62f44b35f): destructing
+04-20 13:42:38.045 199378 199378 I adb     : transport.cpp:400 BlockingConnectionAdapter(3300b8e62f44b35f): already stopped
+04-20 14:35:26.629 199378 513696 I adb     : transport.cpp:335 3300b8e62f44b35f: read thread spawning
+04-20 14:35:26.629 199378 513697 I adb     : transport.cpp:307 3300b8e62f44b35f: write thread spawning
+04-20 14:35:26.637 199378 199378 I adb     : transport.cpp:1727 fetching keys for transport 3300b8e62f44b35f
+04-20 14:35:26.637 199378 199378 I adb     : auth.cpp:468 Calling send_auth_response
+04-20 14:35:26.681 199378 199378 I adb     : adb.cpp:176 3300b8e62f44b35f: offline
+04-20 14:35:36.963 199378 513696 I adb     : transport.cpp:339 3300b8e62f44b35f: read failed: Cannot send after transport endpoint shutdown
+04-20 14:35:36.963 199378 513696 I adb     : transport.cpp:1248 3300b8e62f44b35f: connection terminated: read failed
+04-20 14:35:36.965 199378 199378 I adb     : adb.cpp:176 3300b8e62f44b35f: offline
+04-20 14:35:36.965 199378 199378 I adb     : transport.cpp:931 destroying transport 3300b8e62f44b35f
+04-20 14:35:36.965 199378 199378 I adb     : transport.cpp:407 BlockingConnectionAdapter(3300b8e62f44b35f): stopping
+04-20 14:35:36.972 199378 199378 I adb     : transport.cpp:425 BlockingConnectionAdapter(3300b8e62f44b35f): stopped
+04-20 14:35:36.972 199378 199378 I adb     : transport.cpp:294 BlockingConnectionAdapter(3300b8e62f44b35f): destructing
+04-20 14:35:36.972 199378 199378 I adb     : transport.cpp:400 BlockingConnectionAdapter(3300b8e62f44b35f): already stopped
+04-20 14:35:38.569 199378 514054 I adb     : transport.cpp:335 3300b8e62f44b35f: read thread spawning
+04-20 14:35:38.569 199378 514055 I adb     : transport.cpp:307 3300b8e62f44b35f: write thread spawning
+04-20 14:35:38.576 199378 199378 I adb     : transport.cpp:1727 fetching keys for transport 3300b8e62f44b35f
+04-20 14:35:38.576 199378 199378 I adb     : auth.cpp:468 Calling send_auth_response
+04-20 14:35:38.600 199378 199378 I adb     : adb.cpp:176 3300b8e62f44b35f: offline
+04-20 14:36:00.190 199378 514054 I adb     : transport.cpp:339 3300b8e62f44b35f: read failed: Cannot send after transport endpoint shutdown
+04-20 14:36:00.190 199378 514054 I adb     : transport.cpp:1248 3300b8e62f44b35f: connection terminated: read failed
+04-20 14:36:00.191 199378 199378 I adb     : adb.cpp:176 3300b8e62f44b35f: offline
+04-20 14:36:00.191 199378 199378 I adb     : transport.cpp:931 destroying transport 3300b8e62f44b35f
+04-20 14:36:00.191 199378 199378 I adb     : transport.cpp:407 BlockingConnectionAdapter(3300b8e62f44b35f): stopping
+04-20 14:36:00.191 199378 199378 I adb     : transport.cpp:425 BlockingConnectionAdapter(3300b8e62f44b35f): stopped
+04-20 14:36:00.191 199378 199378 I adb     : transport.cpp:294 BlockingConnectionAdapter(3300b8e62f44b35f): destructing
+04-20 14:36:00.191 199378 199378 I adb     : transport.cpp:400 BlockingConnectionAdapter(3300b8e62f44b35f): already stopped
+04-20 14:37:13.548 199378 515956 I adb     : transport.cpp:335 3300b8e62f44b35f: read thread spawning
+04-20 14:37:13.548 199378 515957 I adb     : transport.cpp:307 3300b8e62f44b35f: write thread spawning
+04-20 14:37:13.552 199378 199378 I adb     : transport.cpp:1727 fetching keys for transport 3300b8e62f44b35f
+04-20 14:37:13.552 199378 199378 I adb     : auth.cpp:468 Calling send_auth_response
+04-20 14:37:13.564 199378 199378 I adb     : adb.cpp:176 3300b8e62f44b35f: offline
+04-20 14:37:14.525 199378 515956 I adb     : transport.cpp:339 3300b8e62f44b35f: read failed: Protocol error
+04-20 14:37:14.525 199378 515956 I adb     : transport.cpp:1248 3300b8e62f44b35f: connection terminated: read failed
+04-20 14:37:14.527 199378 199378 I adb     : adb.cpp:176 3300b8e62f44b35f: offline
+04-20 14:37:14.527 199378 199378 I adb     : transport.cpp:931 destroying transport 3300b8e62f44b35f
+04-20 14:37:14.527 199378 199378 I adb     : transport.cpp:407 BlockingConnectionAdapter(3300b8e62f44b35f): stopping
+04-20 14:37:14.529 199378 199378 I adb     : transport.cpp:425 BlockingConnectionAdapter(3300b8e62f44b35f): stopped
+04-20 14:37:14.529 199378 199378 I adb     : transport.cpp:294 BlockingConnectionAdapter(3300b8e62f44b35f): destructing
+04-20 14:37:14.529 199378 199378 I adb     : transport.cpp:400 BlockingConnectionAdapter(3300b8e62f44b35f): already stopped
+04-20 14:37:16.126 199378 516032 I adb     : transport.cpp:335 3300b8e62f44b35f: read thread spawning
+04-20 14:37:16.126 199378 516033 I adb     : transport.cpp:307 3300b8e62f44b35f: write thread spawning
+04-20 14:37:16.134 199378 199378 I adb     : transport.cpp:1727 fetching keys for transport 3300b8e62f44b35f
+04-20 14:37:16.138 199378 199378 I adb     : auth.cpp:468 Calling send_auth_response
+04-20 14:37:16.163 199378 199378 I adb     : adb.cpp:176 3300b8e62f44b35f: offline
+04-20 14:40:52.711 199378 516032 I adb     : transport.cpp:339 3300b8e62f44b35f: read failed: Cannot send after transport endpoint shutdown
+04-20 14:40:52.711 199378 516032 I adb     : transport.cpp:1248 3300b8e62f44b35f: connection terminated: read failed
+04-20 14:40:52.711 199378 199378 I adb     : adb.cpp:176 3300b8e62f44b35f: offline
+04-20 14:40:52.711 199378 199378 I adb     : transport.cpp:931 destroying transport 3300b8e62f44b35f
+04-20 14:40:52.711 199378 199378 I adb     : transport.cpp:407 BlockingConnectionAdapter(3300b8e62f44b35f): stopping
+04-20 14:40:52.712 199378 199378 I adb     : transport.cpp:425 BlockingConnectionAdapter(3300b8e62f44b35f): stopped
+04-20 14:40:52.712 199378 199378 I adb     : transport.cpp:294 BlockingConnectionAdapter(3300b8e62f44b35f): destructing
+04-20 14:40:52.712 199378 199378 I adb     : transport.cpp:400 BlockingConnectionAdapter(3300b8e62f44b35f): already stopped
+04-20 18:20:53.325 199378 569108 I adb     : transport.cpp:335 3300b8e62f44b35f: read thread spawning
+04-20 18:20:53.326 199378 569109 I adb     : transport.cpp:307 3300b8e62f44b35f: write thread spawning
+04-20 18:20:53.332 199378 199378 I adb     : transport.cpp:1727 fetching keys for transport 3300b8e62f44b35f
+04-20 18:20:53.332 199378 199378 I adb     : auth.cpp:468 Calling send_auth_response
+04-20 18:20:53.378 199378 199378 I adb     : adb.cpp:176 3300b8e62f44b35f: offline
+04-20 18:20:57.752 199378 569108 I adb     : transport.cpp:339 3300b8e62f44b35f: read failed: Protocol error
+04-20 18:20:57.752 199378 569108 I adb     : transport.cpp:1248 3300b8e62f44b35f: connection terminated: read failed
+04-20 18:20:57.753 199378 199378 I adb     : adb.cpp:176 3300b8e62f44b35f: offline
+04-20 18:20:57.753 199378 199378 I adb     : transport.cpp:931 destroying transport 3300b8e62f44b35f
+04-20 18:20:57.753 199378 199378 I adb     : transport.cpp:407 BlockingConnectionAdapter(3300b8e62f44b35f): stopping
+04-20 18:20:57.754 199378 199378 I adb     : transport.cpp:425 BlockingConnectionAdapter(3300b8e62f44b35f): stopped
+04-20 18:20:57.754 199378 199378 I adb     : transport.cpp:294 BlockingConnectionAdapter(3300b8e62f44b35f): destructing
+04-20 18:20:57.754 199378 199378 I adb     : transport.cpp:400 BlockingConnectionAdapter(3300b8e62f44b35f): already stopped
+04-20 18:20:58.592 199378 569148 I adb     : transport.cpp:307 3300b8e62f44b35f: write thread spawning
+04-20 18:20:58.592 199378 569147 I adb     : transport.cpp:335 3300b8e62f44b35f: read thread spawning
+04-20 18:20:58.596 199378 199378 I adb     : transport.cpp:1727 fetching keys for transport 3300b8e62f44b35f
+04-20 18:20:58.596 199378 199378 I adb     : auth.cpp:468 Calling send_auth_response
+04-20 18:20:58.606 199378 199378 I adb     : adb.cpp:176 3300b8e62f44b35f: offline
+04-20 18:21:44.825 199378 569147 I adb     : transport.cpp:339 3300b8e62f44b35f: read failed: Protocol error
+04-20 18:21:44.825 199378 569147 I adb     : transport.cpp:1248 3300b8e62f44b35f: connection terminated: read failed
+04-20 18:21:44.825 199378 199378 I adb     : adb.cpp:176 3300b8e62f44b35f: offline
+04-20 18:21:44.825 199378 199378 I adb     : transport.cpp:931 destroying transport 3300b8e62f44b35f
+04-20 18:21:44.825 199378 199378 I adb     : transport.cpp:407 BlockingConnectionAdapter(3300b8e62f44b35f): stopping
+04-20 18:21:44.826 199378 199378 I adb     : transport.cpp:425 BlockingConnectionAdapter(3300b8e62f44b35f): stopped
+04-20 18:21:44.826 199378 199378 I adb     : transport.cpp:294 BlockingConnectionAdapter(3300b8e62f44b35f): destructing
+04-20 18:21:44.826 199378 199378 I adb     : transport.cpp:400 BlockingConnectionAdapter(3300b8e62f44b35f): already stopped
