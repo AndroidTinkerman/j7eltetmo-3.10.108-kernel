@@ -8,14 +8,24 @@ I originally used linaro GCC 7.5.0 but was plagued with random reboots. That got
 I finally got my kernel image stable with no random reboots using GCC 8.x UBERTC: https://bitbucket.org/matthewdalex/aarch64-linux-android-8.x/src/master/
 
 EDIT the Makefile accordingly and set your environment up and you should be good to go. 
-export TMPDIR=/path/to/sources/out
-make clean
-make mrproper 
-make ARCH=arm64 CROSS_COMPILE=/path/to /toolchain/bin/executable (don't forget the -) j7eltetmo_defconfig it'll warn about dangling pointer in symbol.c, ignore it unless you know how to fix it. 
-make Image ARCH=arm64 CROSS_COMPILE=/path/to /toolchain/bin/executable (don't forget the -) -j$(nproc) 
-Image will be in arch/arm64/boot folder use stock boot.img-dt 
 
-Enjoy, this has brought new life to my j7
+export TMPDIR=/path/to/sources/out
+
+make clean
+
+make mrproper 
+
+make ARCH=arm64 CROSS_COMPILE=/path/to /toolchain/bin/executable (don't forget the -) j7eltetmo_defconfig
+
+(It'll warn about dangling pointer in symbol.c, ignore it unless you know how to 
+fix it.) 
+
+make Image ARCH=arm64 CROSS_COMPILE=/path/to /toolchain/bin/executable (don't forget the -) -j$(nproc) 
+
+Image will be in arch/arm64/boot folder re-use stock boot.img-dt. I compiled the dtb's that get built by these sources into a new boot.img-dt and did not notice any performance gain or improvement so it's up to you.
+
+Enjoy this, it has brought new life to my sm-j700t. 
+
 BTW this is setup to have as little SELINUX/TIMA/KNOX/SECURITY as possible so you have to edit quite a bit of files to re-enable.
 
 I will not help you re-enable that functionality. 
